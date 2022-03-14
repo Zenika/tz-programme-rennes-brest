@@ -1,0 +1,118 @@
+h1 {
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 2em 0;
+  box-shadow: 0 4px 16px rgba(black, 0.08);
+  border-radius: 8px;
+  overflow: hidden;
+
+  th,
+  td {
+    padding: 1em;
+
+    &[col="time"] {
+      width: 140px;
+      text-align: center;
+    }
+
+    &:not([col="time"]) {
+      width: 336px;
+    }
+  }
+
+  thead {
+    background: linear-gradient(45deg, #ee2238, #bf1d67);
+
+    th {
+      padding: 0.5em 1em;
+      color: white;
+    }
+  }
+
+  h2 {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.1;
+  }
+
+  p {
+    font-size: 0.88em;
+  }
+
+  tbody tr {
+    td {
+      border: 1px solid rgba(black, 0.16);
+
+      &[col="time"] {
+        font-size: 0.88em;
+        font-weight: bold;
+      }
+
+      &:last-child {
+        border-right: 0;
+      }
+      &:first-child {
+        border-left: 0;
+      }
+    }
+
+    &:nth-child(odd) {
+      background: rgba(black, 0.08);
+    }
+
+    &.talk {
+      &[data-height="3"] {
+        height: 200px;
+      }
+      &[data-height="2"] {
+        height: 140px;
+      }
+      &[data-height="1"] {
+        height: 40px;
+      }
+    }
+
+    &.special {
+      background: linear-gradient(45deg, #f4c042, #eb8581);
+
+      td {
+        font-weight: bold;
+        padding: 0.5em 1em;
+        color: rgba(black, 0.64);
+      }
+    }
+    &.pause {
+      background: linear-gradient(45deg, #4ca8e7, #4f8df5);
+
+      td {
+        font-weight: bold;
+        padding: 0.5em 1em;
+        color: rgba(black, 0.64);
+      }
+    }
+  }
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3em 1em 1em;
+
+  h1,
+  p {
+    margin: 0;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  img {
+    height: 48px;
+  }
+}

@@ -1,0 +1,54 @@
+{% from './includes/macros.njk' import icon %}
+{% extends './layouts/default.njk' %}
+
+{% block css %}
+    <link rel="stylesheet" href="css/styles.css"/>
+{% endblock %}
+
+{% block body %}
+<body>
+  <div class="container">
+    <header>
+      <div>
+      <h1>TZ Rennes/Brest du 01 avril 2022</h1>
+      <p>Programme de la journée</p>
+      </div>
+      <img src="img/logozenika.svg" alt="">
+    </header>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th col="time">Horaire</th>
+                <th>Track 1</th>
+                <th>Track 2</th>
+                <th>Track 3</th>
+            </tr>
+        </thead>
+        <tbody>
+          {% for slot in tz.slots %}
+            <tr class="{{ slot.type }}" data-height="{{ slot.slots }}">
+              <td col="time">{{ slot.time }}</td>
+
+              {% for track in slot.tracks %}
+                {% if slot.type === 'talk' %}
+                    {% if track.title %}
+                      <td {% if track.span %}rowspan="{{ track.span }}"{% endif %}>
+                        <h2>{{ track.title | safe }}</h2>
+                        <p>{% set comma = joiner(' &') %}{% for author in track.authors -%}{{ comma() }} {{ author }}{%- endfor %}</p>
+
+                        <p>🕑&nbsp;&nbsp;{{ track.timing }} - {{ track.category | safe }}</p>
+                      </td>
+                    {% endif %}
+                {% else %}
+                      <td>{{ track.title }}</td>
+                {% endif %}
+              {% endfor %}
+            </tr>
+          {% endfor %}
+        </tbody>
+    </table>
+  </div>
+</body>
+{% endblock %}

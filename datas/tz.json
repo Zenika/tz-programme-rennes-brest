@@ -1,0 +1,363 @@
+{
+  "slots": [
+    {
+      "time": "9h30 - 10h00",
+      "slots": 2,
+      "type": "special",
+      "tracks": [
+        {
+          "title": "Keynote"
+        },
+        {},
+        {}
+      ]
+    },
+    {
+      "time": "10h00 - 10h30",
+      "slots": 2,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Sous le capot des navigateurs web",
+          "authors": ["Anthony Le Goas"],
+          "category": "🌍  Web",
+          "timing": "30 min"
+        },
+        {
+          "title": "La philosophie derrière le <strong>Delivery Management</strong> de Zenika",
+          "authors": ["Benoit Couetil", "Kevin Danezis"],
+          "category": "🍻  Not tech",
+          "timing": "30 min"
+        },
+        {
+          "title": "Airtable, qu'est-ce que ça vaut ?",
+          "authors": ["Herminaël Rougier"],
+          "category": "💡  Discovery",
+          "timing": "30 min"
+        }
+      ]
+    },
+    {
+      "time": "10h30 - 11h00",
+      "slots": 2,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Le Nudge, communication ou manipulation ?",
+          "authors": ["Herri Heas"],
+          "category": "🍻  Not tech",
+          "timing": "30 min"
+        },
+        {
+          "title": "📻 Disaster Radio: Comment communiquer en cas de coupure 4G ? 📡",
+          "authors": ["Glenn Feunteun"],
+          "category": "📱  Mobile & IoT",
+          "timing": "30 min"
+        },
+        {
+          "title": "Initiation à l'oenologie avec Apache Pinot",
+          "authors": ["Guillaume Fayemi"],
+          "category": "🤖  Data & AI",
+          "timing": "30 min"
+        }
+      ]
+    },
+    {
+      "time": "11h00 - 11h15",
+      "slots": 1,
+      "type": "pause",
+      "tracks": [
+        {
+          "title": "Pause"
+        },
+        {
+          "title": "Pause"
+        },
+        {
+          "title": "Pause"
+        }
+      ]
+    },
+    {
+      "time": "11h15 - 11h30",
+      "slots": 1,
+      "type": "special",
+      "tracks": [
+        {
+          "title": "Icebreaker"
+        },
+        {},
+        {}
+      ]
+    },
+    {
+      "time": "11h30 - 12h00",
+      "slots": 2,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Contes et histoires au royaume de l'authentification",
+          "authors": ["Jérôme Marchand"],
+          "category": "🐱‍💻  Security",
+          "timing": "30 min"
+        },
+        {
+          "title": "Le meilleur développeur est-il un UX engineer ?",
+          "authors": ["Scauglog"],
+          "category": "💡  Discovery",
+          "timing": "30 min"
+        },
+        {
+          "title": "Comment réduire l'obésité fonctionnelle ?",
+          "authors": ["Serge Hardy", "Sylvain Reverault"],
+          "category": "💡  Discovery",
+          "timing": "30 min"
+        }
+      ]
+    },
+    {
+      "time": "12h00 - 12h30",
+      "slots": 2,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "🩹Les bobos tabous 🙊",
+          "authors": ["Malo Toanen"],
+          "category": "🍻  Not tech",
+          "timing": "30 min"
+        },
+        {
+          "title": "Tentatives de rapprochement UX et dev",
+          "authors": ["Karine Sabatier"],
+          "category": "💚  UX / UI",
+          "timing": "30 min"
+        },
+        {
+          "title": "Les experts de la Formation : ami, ami",
+          "authors": ["Kevin Danezis", "Yoan Rousseau"],
+          "category": "🍻  Not tech",
+          "timing": "30 min"
+        }
+      ]
+    },
+    {
+      "time": "12h30 - 13h45",
+      "slots": 2,
+      "type": "pause",
+      "tracks": [
+        {
+          "title": "Repas"
+        },
+        {
+          "title": "Repas"
+        },
+        {
+          "title": "Repas"
+        }
+      ]
+    },
+    {
+      "time": "13h45 - 14h00",
+      "slots": 1,
+      "type": "special",
+      "tracks": [
+        {
+          "title": "Icebreaker"
+        },
+        {},
+        {}
+      ]
+    },
+    {
+      "time": "14h00 - 14h45",
+      "slots": 3,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Impacts environnementaux du Cloud : the good, the bad, the ugly",
+          "authors": ["Sylvain Reverault"],
+          "category": "☁️  DevOps & Cloud",
+          "timing": "45 min"
+        },
+        {
+          "title": "REX Socle Frontend Arkéa (SoFA)",
+          "authors": ["Benoit Vasseur", "Jérémy Riverain"],
+          "category": "🌍  Web",
+          "timing": "45 min"
+        },
+        {
+          "title": "L'animation web de demain : on est bien Lottie !",
+          "authors": ["Nicolas Leport"],
+          "category": "💚  UX / UI",
+          "timing": "45 min"
+        }
+      ]
+    },
+    {
+      "time": "14h45 - 15h30",
+      "slots": 3,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Identité numérique décentralisée et droit d'être soi : protéger son intégrité sur Internet",
+          "authors": ["Adrien Wattez", "Antoine Cailly"],
+          "category": "💡  Discovery",
+          "timing": "45 min"
+        },
+        {
+          "title": "Boostez votre lecture et repartez avec un iPad !",
+          "authors": ["Luc Sorel-Giffo"],
+          "category": "🍻  Not tech",
+          "timing": "45 min"
+        },
+        {
+          "title": "Mob in the dark",
+          "authors": ["Antoine Le Chapelain", "Hélène Esnault"],
+          "category": "💚  UX / UI",
+          "timing": "45 min"
+        }
+      ]
+    },
+    {
+      "time": "15h30 - 16h00",
+      "slots": 2,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Équipe produit ou équipe presta ?",
+          "authors": ["Benoit Averty"],
+          "category": "🛠  Craft",
+          "timing": "30 min"
+        },
+        {
+          "title": "CryptoDuck : Let's create some duck NFT",
+          "authors": ["Jonathan Lagneaux", "Guillaume Lamanda"],
+          "category": "🌍  Web",
+          "timing": "30 min"
+        },
+        {
+          "title": "[REX] Retour arrière sur une organisation agile",
+          "authors": ["Marie Gigon"],
+          "category": "🖍  Agility",
+          "timing": "30 min"
+        }
+      ]
+    },
+    {
+      "time": "16h00 - 16h15",
+      "slots": 1,
+      "type": "pause",
+      "tracks": [
+        {
+          "title": "Pause"
+        },
+        {
+          "title": "Pause"
+        },
+        {
+          "title": "Pause"
+        }
+      ]
+    },
+    {
+      "time": "16h15 - 16h30",
+      "slots": 1,
+      "type": "special",
+      "tracks": [
+        {
+          "title": "Icebreaker"
+        },
+        {},
+        {}
+      ]
+    },
+    {
+      "time": "16h30 - 17h15",
+      "slots": 3,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "A11y pour les nuls",
+          "authors": ["Hélène Esnault"],
+          "category": "🌍  Web",
+          "timing": "45 min"
+        },
+        {
+          "title": "Kata agile : exercices pratiques",
+          "authors": ["Charlotte Colliou", "Elise Fravallo"],
+          "category": "🖍  Agility",
+          "timing": "45 min"
+        },
+        {
+          "title": "De JavaScript à Haskell: le tournant de la rigueur",
+          "authors": ["Loïc Truchot"],
+          "category": "📝  Languages",
+          "timing": "45 min"
+        }
+      ]
+    },
+    {
+      "time": "17h15 - 17h30",
+      "slots": 1,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Introduction a SolidJS",
+          "authors": ["Glenn Guegan"],
+          "category": "🌍  Web",
+          "timing": "30 min",
+          "span": 2
+        },
+        {
+          "title": "Découvrir le JDR",
+          "authors": ["Gabriel Queste"],
+          "category": "🍻  Not tech",
+          "timing": "15 min"
+        },
+        {
+          "title": "Comment dépanner un client ? (REX Ifremer)",
+          "authors": ["Adrien Cahoreau"],
+          "category": "💡  Discovery",
+          "timing": "15 min"
+        }
+      ]
+    },
+    {
+      "time": "17h30 - 17h45",
+      "slots": 1,
+      "type": "talk",
+      "tracks": [
+        {},
+        {
+          "title": "Et si on modélisait des réservations de restaurants en 2D dans Elasticsearch",
+          "authors": ["Ludovic Boutros"],
+          "category": "🤖  Data & AI",
+          "timing": "45 min",
+          "span": 2
+        },
+        {
+          "title": "Devenir autonome avec un élevage de poissons dans mon jardin ?",
+          "authors": ["Mickaël Boixière"],
+          "category": "🍻  Not tech",
+          "timing": "45 min",
+          "span": 2
+        }
+      ]
+    },
+    {
+      "time": "17h45 - 18h15",
+      "slots": 2,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Et 1, et 2, et Web 3.0 !",
+          "authors": ["Xavier Cassel"],
+          "category": "🌍  Web",
+          "timing": "30 min"
+        },
+        {},
+        {}
+      ]
+    }
+  ]
+}
