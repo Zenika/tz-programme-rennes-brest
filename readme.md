@@ -1,15 +1,16 @@
 # TZ Rennes
 
+> Disclaimer : this is a quick code, nothing is clean really but, let's stay pragmatic, it works.
+
 To begin you'll need NodeJS or Yarn.
 
 `npm install` or `yarn install`
 
 This website use gulp for it's pipeline and have this features:
 
-- SCSS to CSS files from `src/scss` with `autoprefixer` and `purgeCSS` for production
+- SCSS to CSS files from `src/scss` with `autoprefixer`
 - SVG Sprite by combining all files in `src/icons/*.svg`
 - Optimizing images in `src/img` and copy them in the `dist` folder
-- Compile JS files in `src/js` with `webpack` and `@babel/env`
 - Live reload all the things with **BrowserSync** 🚀
 
 ## Development
@@ -39,3 +40,7 @@ Nunjucks page example:
     <h1>Page 1</h1>
 {% endblock %}
 ```
+
+# Génération du programme en PNG
+
+You have to launch the `generate` script to generate with `Puppeteer` a screenshot of the page.
