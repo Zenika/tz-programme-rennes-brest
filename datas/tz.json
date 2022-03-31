@@ -121,7 +121,7 @@
           "timing": "30 min"
         },
         {
-          "title": "Les experts de la Formation : ami, ami",
+          "title": "<s>Les experts de la Formation : ami, ami",
           "authors": ["Kevin Danezis", "Yoan Rousseau"],
           "category": "🍻  Not tech",
           "timing": "30 min"
@@ -329,7 +329,7 @@
       "tracks": [
         {},
         {
-          "title": "Et si on modélisait des réservations de restaurants en 2D dans Elasticsearch",
+          "title": "<s>Et si on modélisait des réservations de restaurants en 2D dans Elasticsearch",
           "authors": ["Ludovic Boutros"],
           "category": "🤖  Data & AI",
           "timing": "45 min",
