@@ -40,6 +40,8 @@
 
                         <p>🕑&nbsp;&nbsp;{{ track.timing }} - {{ track.category | safe }}</p>
                       </td>
+                    {% elif track === "EMPTY"  %}
+                      <td class="empty"></td>
                     {% endif %}
                 {% else %}
                       <td>{{ track.title }}</td>

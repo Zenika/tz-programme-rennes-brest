@@ -169,7 +169,7 @@
       ]
     },
     {
-      "time": "15h00 - 15h45",
+      "time": "15h00 - 15h30",
       "slots": 3,
       "type": "talk",
       "tracks": [
@@ -177,13 +177,15 @@
           "title": "Impacts environnementaux du Cloud : the good, the bad, the ugly",
           "authors": ["Sylvain Reverault"],
           "category": "☁️  DevOps & Cloud",
-          "timing": "45 min"
+          "timing": "45 min",
+          "span": 2
         },
         {
           "title": "REX Socle Frontend Arkéa (SoFA)",
           "authors": ["Benoit Vasseur", "Jérémy Riverain"],
           "category": "🌍  Web",
-          "timing": "45 min"
+          "timing": "45 min",
+          "span": 2
         },
         {
           "title": "Et 1, et 2, et Web 3.0 !",
@@ -192,6 +194,12 @@
           "timing": "30 min"
         }
       ]
+    },
+    {
+      "time": "15h30 - 15h45",
+      "slots": 1,
+      "type": "talk",
+      "tracks": [{}, {}, "EMPTY"]
     },
     {
       "time": "15h45 - 16h30",
@@ -285,8 +293,8 @@
       ]
     },
     {
-      "time": "18h00 - 18h30",
-      "slots": 2,
+      "time": "18h00 - 18h15",
+      "slots": 1,
       "type": "talk",
       "tracks": [
         {
@@ -309,6 +317,12 @@
           "timing": "15 min"
         }
       ]
+    },
+    {
+      "time": "18h15 - 18h30",
+      "slots": 1,
+      "type": "talk",
+      "tracks": [{}, "EMPTY", "EMPTY"]
     }
   ]
 }
