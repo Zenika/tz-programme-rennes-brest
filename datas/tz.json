@@ -243,8 +243,7 @@
           "title": "Introduction a SolidJS",
           "authors": ["Glenn Guegan"],
           "category": "🌍  Web",
-          "timing": "30 min",
-          "span": 2
+          "timing": "30 min"
         },
         {
           "title": "CryptoDuck : Let's create some duck NFT",
@@ -287,14 +286,15 @@
     },
     {
       "time": "18h00 - 18h30",
-      "slots": 1,
+      "slots": 2,
       "type": "talk",
       "tracks": [
         {
           "title": "Équipe produit ou équipe presta ?",
           "authors": ["Benoit Averty"],
           "category": "🛠  Craft",
-          "timing": "30 min"
+          "timing": "30 min",
+          "span": 2
         },
         {
           "title": "Découvrir le JDR",

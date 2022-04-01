@@ -127,7 +127,6 @@ function dev(cb) {
   });
 
   watch("src/scss/**/*.scss", scss);
-  watch("src/js/**/*.js", js);
   watch("src/**/*.njk", njk).on("change", browserSync.reload);
   watch("src/img/**/*", img);
   watch("src/icons/**/*", svgMin);
