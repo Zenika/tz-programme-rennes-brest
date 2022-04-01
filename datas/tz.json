@@ -169,7 +169,7 @@
       ]
     },
     {
-      "time": "14h00 - 14h45",
+      "time": "15h00 - 15h45",
       "slots": 3,
       "type": "talk",
       "tracks": [
@@ -186,15 +186,15 @@
           "timing": "45 min"
         },
         {
-          "title": "L'animation web de demain : on est bien Lottie !",
-          "authors": ["Nicolas Leport"],
-          "category": "💚  UX / UI",
-          "timing": "45 min"
+          "title": "Et 1, et 2, et Web 3.0 !",
+          "authors": ["Xavier Cassel"],
+          "category": "🌍  Web",
+          "timing": "30 min"
         }
       ]
     },
     {
-      "time": "14h45 - 15h30",
+      "time": "15h45 - 16h30",
       "slots": 3,
       "type": "talk",
       "tracks": [
@@ -205,9 +205,9 @@
           "timing": "45 min"
         },
         {
-          "title": "Boostez votre lecture et repartez avec un iPad !",
-          "authors": ["Luc Sorel-Giffo"],
-          "category": "🍻  Not tech",
+          "title": "Kata agile : exercices pratiques",
+          "authors": ["Charlotte Colliou", "Elise Fravallo"],
+          "category": "🖍  Agility",
           "timing": "45 min"
         },
         {
@@ -219,15 +219,32 @@
       ]
     },
     {
-      "time": "15h30 - 16h00",
+      "time": "16h30 - 16h45",
+      "slots": 1,
+      "type": "pause",
+      "tracks": [
+        {
+          "title": "Pause"
+        },
+        {
+          "title": "Pause"
+        },
+        {
+          "title": "Pause"
+        }
+      ]
+    },
+    {
+      "time": "16h45 - 17h15",
       "slots": 2,
       "type": "talk",
       "tracks": [
         {
-          "title": "Équipe produit ou équipe presta ?",
-          "authors": ["Benoit Averty"],
-          "category": "🛠  Craft",
-          "timing": "30 min"
+          "title": "Introduction a SolidJS",
+          "authors": ["Glenn Guegan"],
+          "category": "🌍  Web",
+          "timing": "30 min",
+          "span": 2
         },
         {
           "title": "CryptoDuck : Let's create some duck NFT",
@@ -244,35 +261,7 @@
       ]
     },
     {
-      "time": "16h00 - 16h15",
-      "slots": 1,
-      "type": "pause",
-      "tracks": [
-        {
-          "title": "Pause"
-        },
-        {
-          "title": "Pause"
-        },
-        {
-          "title": "Pause"
-        }
-      ]
-    },
-    {
-      "time": "16h15 - 16h30",
-      "slots": 1,
-      "type": "special",
-      "tracks": [
-        {
-          "title": "Icebreaker"
-        },
-        {},
-        {}
-      ]
-    },
-    {
-      "time": "16h30 - 17h15",
+      "time": "17h15 - 18h00",
       "slots": 3,
       "type": "talk",
       "tracks": [
@@ -283,9 +272,9 @@
           "timing": "45 min"
         },
         {
-          "title": "Kata agile : exercices pratiques",
-          "authors": ["Charlotte Colliou", "Elise Fravallo"],
-          "category": "🖍  Agility",
+          "title": "Boostez votre lecture et repartez avec un iPad !",
+          "authors": ["Luc Sorel-Giffo"],
+          "category": "🍻  Not tech",
           "timing": "45 min"
         },
         {
@@ -297,16 +286,15 @@
       ]
     },
     {
-      "time": "17h15 - 17h30",
+      "time": "18h00 - 18h30",
       "slots": 1,
       "type": "talk",
       "tracks": [
         {
-          "title": "Introduction a SolidJS",
-          "authors": ["Glenn Guegan"],
-          "category": "🌍  Web",
-          "timing": "30 min",
-          "span": 2
+          "title": "Équipe produit ou équipe presta ?",
+          "authors": ["Benoit Averty"],
+          "category": "🛠  Craft",
+          "timing": "30 min"
         },
         {
           "title": "Découvrir le JDR",
@@ -323,7 +311,7 @@
       ]
     },
     {
-      "time": "17h30 - 17h45",
+      "time": "18h30 - 18h45",
       "slots": 1,
       "type": "talk",
       "tracks": [
@@ -342,21 +330,6 @@
           "timing": "45 min",
           "span": 2
         }
-      ]
-    },
-    {
-      "time": "17h45 - 18h15",
-      "slots": 2,
-      "type": "talk",
-      "tracks": [
-        {
-          "title": "Et 1, et 2, et Web 3.0 !",
-          "authors": ["Xavier Cassel"],
-          "category": "🌍  Web",
-          "timing": "30 min"
-        },
-        {},
-        {}
       ]
     }
   ]
