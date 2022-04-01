@@ -309,28 +309,6 @@
           "timing": "15 min"
         }
       ]
-    },
-    {
-      "time": "18h30 - 18h45",
-      "slots": 1,
-      "type": "talk",
-      "tracks": [
-        {},
-        {
-          "title": "<s>Et si on modélisait des réservations de restaurants en 2D dans Elasticsearch",
-          "authors": ["Ludovic Boutros"],
-          "category": "🤖  Data & AI",
-          "timing": "45 min",
-          "span": 2
-        },
-        {
-          "title": "Devenir autonome avec un élevage de poissons dans mon jardin ?",
-          "authors": ["Mickaël Boixière"],
-          "category": "🍻  Not tech",
-          "timing": "45 min",
-          "span": 2
-        }
-      ]
     }
   ]
 }
