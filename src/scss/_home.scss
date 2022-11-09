@@ -60,10 +60,6 @@ table {
       }
     }
 
-    &:nth-child(odd) {
-      background: rgba(black, 0.08);
-    }
-
     &.talk {
       &[data-height="3"] {
         height: 200px;
