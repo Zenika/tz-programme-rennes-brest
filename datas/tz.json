@@ -1,15 +1,17 @@
 {
+  "tracks": ["L'écurie", "La basse-cour", "La chambre"],
   "slots": [
     {
-      "time": "9h00 - 9h20",
+      "time": "9h20 - 9h30",
+      "begin": "9h20",
       "slots": 2,
       "type": "talk",
       "tracks": [
         {
-          "title": "La bienveillance, c'est de la merde",
-          "authors": ["Luc Sorel-Giffo", "Malo Toanen"],
+          "title": "Mot du président",
+          "authors": ["Herri Heas"],
           "category": "🍻  Not tech",
-          "timing": "20 min"
+          "timing": "10 min"
         },
         "EMPTY",
         "EMPTY"
@@ -17,6 +19,7 @@
     },
     {
       "time": "9h30 - 9h50",
+      "begin": "9h30",
       "slots": 2,
       "type": "talk",
       "tracks": [
@@ -44,6 +47,7 @@
     },
     {
       "time": "10h00 - 10h20",
+      "begin": "10h00",
       "slots": 2,
       "type": "talk",
       "tracks": [
@@ -59,6 +63,7 @@
     },
     {
       "time": "10h20 - 10h50",
+      "begin": "10h20",
       "slots": 1,
       "type": "pause",
       "tracks": [
@@ -75,6 +80,7 @@
     },
     {
       "time": "10h50 - 11h10",
+      "begin": "10h50",
       "slots": 2,
       "type": "talk",
       "tracks": [
@@ -102,6 +108,7 @@
     },
     {
       "time": "11h20 - 11h40",
+      "begin": "11h20",
       "slots": 2,
       "type": "talk",
       "tracks": [
@@ -117,6 +124,7 @@
     },
     {
       "time": "11h50 - 12h10",
+      "begin": "11h50",
       "slots": 2,
       "type": "talk",
       "tracks": [
@@ -141,8 +149,9 @@
       ]
     },
     {
-      "time": "12h10 - 13h45",
-      "slots": 2,
+      "time": "12h10 - 14h00",
+      "begin": "12h10",
+      "slots": 3,
       "type": "pause",
       "tracks": [
         {
@@ -157,19 +166,8 @@
       ]
     },
     {
-      "time": "13h45 - 14h00",
-      "slots": 1,
-      "type": "special",
-      "tracks": [
-        {
-          "title": "Icebreaker"
-        },
-        {},
-        {}
-      ]
-    },
-    {
       "time": "14h00 - 14h20",
+      "begin": "14h00",
       "slots": 2,
       "type": "talk",
       "tracks": [
@@ -197,6 +195,7 @@
     },
     {
       "time": "14h30 - 14h50",
+      "begin": "14h30",
       "slots": 2,
       "type": "talk",
       "tracks": [
@@ -212,6 +211,7 @@
     },
     {
       "time": "15h00 - 15h20",
+      "begin": "15h00",
       "slots": 2,
       "type": "talk",
       "tracks": [
@@ -231,7 +231,7 @@
         },
         {
           "title": "Hook’il est bô notre code !",
-          "authors": ["Jérôme Marchand", "Luc Sorel-Giffo"],
+          "authors": ["Jérôme Marchand"],
           "category": "🛠  Craft",
           "timing": "20 min"
         }
@@ -239,6 +239,7 @@
     },
     {
       "time": "15h30 - 15h50",
+      "begin": "15h30",
       "slots": 2,
       "type": "talk",
       "tracks": [
@@ -254,6 +255,7 @@
     },
     {
       "time": "15h50 - 16h10",
+      "begin": "15h50",
       "slots": 1,
       "type": "pause",
       "tracks": [
@@ -270,6 +272,7 @@
     },
     {
       "time": "16h10 - 16h30",
+      "begin": "16h10",
       "slots": 1,
       "type": "special",
       "tracks": [
@@ -282,6 +285,7 @@
     },
     {
       "time": "16h30 - 16h50",
+      "begin": "16h30",
       "slots": 1,
       "type": "talk",
       "tracks": [
@@ -307,6 +311,7 @@
     },
     {
       "time": "17h00 - 17h20",
+      "begin": "17h00",
       "slots": 1,
       "type": "talk",
       "tracks": [
@@ -332,6 +337,7 @@
     },
     {
       "time": "17h30 - 17h50",
+      "begin": "17h30",
       "slots": 1,
       "type": "talk",
       "tracks": [
