@@ -2,8 +2,8 @@
   "tracks": ["L'écurie", "La basse-cour", "La chambre"],
   "slots": [
     {
-      "time": "9h20 - 9h30",
-      "begin": "9h20",
+      "time": "9h05 - 9h20",
+      "begin": "9h05",
       "slots": 2,
       "type": "talk",
       "tracks": [
@@ -11,7 +11,7 @@
           "title": "Mot du président",
           "authors": ["Herri Heas"],
           "category": "🍻  Not tech",
-          "timing": "10 min"
+          "timing": "15 min"
         },
         "EMPTY",
         "EMPTY"
