@@ -21,11 +21,12 @@
         <thead>
             <tr>
                 <th col="time">Horaire</th>
-                <th>Track 1 - L'écurie</th>
-                <th>Track 2 - La basse-cour</th>
-                <th>Track 3 - La chambre</th>
+                {% for track in tz.tracks %}
+                  <th>Track {{ loop.index }} - {{ track }}</th>
+                {% endfor %}
             </tr>
         </thead>
+
         <tbody>
           {% for slot in tz.slots %}
             <tr class="{{ slot.type }}" data-height="{{ slot.slots }}">
@@ -34,7 +35,7 @@
               {% for track in slot.tracks %}
                 {% if slot.type === 'talk' %}
                     {% if track.title %}
-                      <td {% if track.span %}rowspan="{{ track.span }}"{% endif %}>
+                      <td {% if track.span %}rowspan="{{ track.span }}"{% endif %} data-time="{{ slot.begin }}" data-track="Track {{ loop.index }} - {{ tz.tracks[loop.index - 1] }}">
                         <h2>{{ track.title | safe }}</h2>
                         <p>{% set comma = joiner(' &') %}{% for author in track.authors -%}{{ comma() }} {{ author }}{%- endfor %}</p>
 
@@ -44,7 +45,7 @@
                       <td class="empty"></td>
                     {% endif %}
                 {% else %}
-                      <td>{{ track.title }}</td>
+                      <td data-type="{{ track.title }}">{{ track.title }}</td>
                 {% endif %}
               {% endfor %}
             </tr>
