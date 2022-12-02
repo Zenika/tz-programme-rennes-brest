@@ -290,21 +290,21 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "Open forum",
-          "authors": [""],
-          "category": "",
+          "title": "CNCF Roulette",
+          "authors": ["Sylvain Révérault"],
+          "category": "🍻  Not tech",
           "timing": "20 min"
         },
         {
-          "title": "Open forum",
-          "authors": [""],
-          "category": "",
+          "title": "Communication à l'agence",
+          "authors": ["Herri Heas"],
+          "category": "🍻  Not tech",
           "timing": "20 min"
         },
         {
-          "title": "Open forum",
-          "authors": [""],
-          "category": "",
+          "title": "TDD",
+          "authors": ["Maxime Maigret"],
+          "category": "🍻  Not tech",
           "timing": "20 min"
         }
       ]
@@ -316,21 +316,21 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "Open forum",
-          "authors": [""],
-          "category": "",
+          "title": "NestJS / Autho0",
+          "authors": ["Gwénolé Kerninon"],
+          "category": "🍻  Not tech",
           "timing": "20 min"
         },
         {
-          "title": "Open forum",
-          "authors": [""],
-          "category": "",
+          "title": "AMME",
+          "authors": ["Damien Aranda"],
+          "category": "🍻  Not tech",
           "timing": "20 min"
         },
         {
-          "title": "Open forum",
-          "authors": [""],
-          "category": "",
+          "title": "Le JDR, présentation de jeux",
+          "authors": ["Gabriel Queste"],
+          "category": "🍻  Not tech",
           "timing": "20 min"
         }
       ]
@@ -342,21 +342,21 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "Open forum",
-          "authors": [""],
-          "category": "",
+          "title": "Découverte du GeoCaching",
+          "authors": ["Marie Gigon"],
+          "category": "🍻  Not tech",
           "timing": "20 min"
         },
         {
-          "title": "Open forum",
-          "authors": [""],
-          "category": "",
+          "title": "Documenter son code à chaque commit",
+          "authors": ["Adrien Cahoreau"],
+          "category": "🛠  Craft",
           "timing": "20 min"
         },
         {
-          "title": "Open forum",
-          "authors": [""],
-          "category": "",
+          "title": "Le Reactive Programming c'est de la merde",
+          "authors": ["Malo Toanen", "Ludovic Boutros"],
+          "category": "🍻  Not tech",
           "timing": "20 min"
         }
       ]
