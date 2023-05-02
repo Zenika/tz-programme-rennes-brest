@@ -185,23 +185,23 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "Que se passe-t-il réellement sous un tableau Kanban et ses postit ? Creusons cette méthode à la tractopelle !",
-          "authors": ["Kevin Danezis"],
-          "category": "🖍  Agility",
+          "title": "Avez vous besoin d'un mono ou d'un multi ?",
+          "authors": ["Benoit Couetil", "Jérôme Marchand"],
+          "category": "☁️  DevOps & Cloud",
           "timing": "40 min",
           "span": 2
         },
         {
-          "title": "Comment j'ai automatisé le support : voyage au pays de Google App Scripts",
+          "title": "REX : refonte en écoconception des services numériques de la Scop La Maison Écologique",
           "authors": ["Sylvain Révérault"],
-          "category": "🤯 WTF",
+          "category": "🌳 Green",
           "timing": "40 min",
           "span": 2
         },
         {
-          "title": "Hook’il est bô notre code !",
-          "authors": ["Jérôme Marchand"],
-          "category": "🛠  Craft",
+          "title": "J'ai publié une nouvelle ! 😱",
+          "authors": ["Gabriel Queste"],
+          "category": "🍻  Not tech",
           "timing": "20 min"
         }
       ]
@@ -215,8 +215,8 @@
         {},
         {},
         {
-          "title": "Casse-toi tu pues et marche à l'ombre",
-          "authors": ["Pierre Durros"],
+          "title": "Devenir blogueur tech : Pas si dur",
+          "authors": ["Damien Le Dantec"],
           "category": "🍻  Not tech",
           "timing": "20 min"
         }
@@ -259,22 +259,10 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "CNCF Roulette",
-          "authors": ["Sylvain Révérault"],
-          "category": "🍻  Not tech",
-          "timing": "20 min"
         },
         {
-          "title": "NestJS / Autho0",
-          "authors": ["Gwénolé Kerninon"],
-          "category": "🍻  Not tech",
-          "timing": "20 min"
         },
         {
-          "title": "Découverte du GeoCaching",
-          "authors": ["Marie Gigon"],
-          "category": "🍻  Not tech",
-          "timing": "20 min"
         }
       ]
     },
@@ -285,22 +273,10 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "Communication à l'agence",
-          "authors": ["Herri Heas"],
-          "category": "🍻  Not tech",
-          "timing": "20 min"
         },
         {
-          "title": "AMME",
-          "authors": ["Damien Aranda"],
-          "category": "🍻  Not tech",
-          "timing": "20 min"
         },
         {
-          "title": "Documenter son code à chaque commit",
-          "authors": ["Adrien Cahoreau"],
-          "category": "🛠  Craft",
-          "timing": "20 min"
         }
       ]
     },
@@ -311,22 +287,10 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "TDD",
-          "authors": ["Maxime Maigret"],
-          "category": "🍻  Not tech",
-          "timing": "20 min"
         },
         {
-          "title": "Le JDR, présentation de jeux",
-          "authors": ["Gabriel Queste"],
-          "category": "🍻  Not tech",
-          "timing": "20 min"
         },
         {
-          "title": "Le Reactive Programming c'est de la merde",
-          "authors": ["Malo Toanen", "Ludovic Boutros"],
-          "category": "🍻  Not tech",
-          "timing": "20 min"
         }
       ]
     }
