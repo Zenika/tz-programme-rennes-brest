@@ -8,7 +8,7 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "Keynote d'ouverture",
+          "title": "⛵ Keynote ⛵",
           "authors": ["Yann Quenet"],
           "category": "🍻  Not tech",
           "timing": "40 min"
@@ -97,8 +97,8 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "Keynote",
-          "authors": ["Skumenn"],
+          "title": "🍻 Keynote 🍻",
+          "authors": ["Stéphane Le Boucher"],
           "category": "🍻  Not tech",
           "timing": "20 min"
         },
