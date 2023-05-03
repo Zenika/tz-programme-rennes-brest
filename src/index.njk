@@ -40,6 +40,10 @@
                         <p>{% set comma = joiner(' &') %}{% for author in track.authors -%}{{ comma() }} {{ author }}{%- endfor %}</p>
 
                         <p>🕑&nbsp;&nbsp;{{ track.timing }} - {{ track.category | safe }}</p>
+
+                        {% if track.url %}
+                        <p>🔍&nbsp;&nbsp;<a href="{{ track.url}}" target="_blank">Lien vers la description ↗</a></p>
+                        {% endif %}
                       </td>
                     {% elif track === "EMPTY"  %}
                       <td class="empty"></td>
