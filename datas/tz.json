@@ -24,11 +24,7 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "La bienveillance, c'est de la merde",
-          "authors": ["Malo Toanen", "Luc Sorel-Giffo"],
-          "category": "🍻  Not tech",
-          "timing": "20 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/cHIbhPWUBDb9wn9c3Epa"
+          "title": "❓"
         },
         {
           "title": "ChatGPT et Midjourney... en pur local sur mon Mac",
@@ -268,7 +264,11 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "❓"
+          "title": "La bienveillance, c'est de la merde",
+          "authors": ["Malo Toanen", "Luc Sorel-Giffo"],
+          "category": "🍻  Not tech",
+          "timing": "20 min",
+          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/cHIbhPWUBDb9wn9c3Epa"
         },
         {
           "title": "❓"
