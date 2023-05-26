@@ -24,7 +24,11 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "❓"
+          "title": "Le solfège en 20 minutes",
+          "authors": ["Serge Hardy"],
+          "category": "💡  Discovery",
+          "timing": "20 min",
+          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/577Pg6y4iJyoBiyi8dOk"
         },
         {
           "title": "ChatGPT et Midjourney... en pur local sur mon Mac",
