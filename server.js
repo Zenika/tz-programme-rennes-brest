@@ -33,7 +33,7 @@ async function generate(fileName, locale, httpPort) {
 
   await page.setViewport({
     width: 1240,
-    height: 1740
+    height: 2000
   });
 
   await page.screenshot({ path: 'tz-programme.png' })

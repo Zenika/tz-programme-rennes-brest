@@ -1,54 +1,60 @@
 {
-  "tracks": ["Le hub", "L'atelier", "L'école"],
+  "tracks": ["Le hub", "L'atelier", "Le FabLab"],
   "slots": [
     {
-      "time": "9h15 - 9h55",
-      "begin": "9h15",
+      "time": "9h - 9h30",
+      "begin": "9h",
+      "slots": 1,
+      "type": "pause",
+      "tracks": [
+        {
+          "title": "Petit-déjeuner"
+        },
+        {
+          "title": "Petit-déjeuner"
+        },
+        {
+          "title": "Petit-déjeuner"
+        }
+      ]
+    },
+    {
+      "time": "9h30 - 10h10",
+      "begin": "9h30",
       "slots": 2,
       "type": "talk",
       "tracks": [
         {
-          "title": "⛵ Keynote ⛵",
-          "authors": ["Yann Quenet"],
-          "category": "🍻  Not tech",
-          "timing": "40 min"
+          "title": "REX projet Sinari, les tops, les flops et les apprentissages",
+          "authors": ["Karine Sabatier", "Fabien Grellier - Sinari"],
+          "category": "®️ Produit",
+          "timing": "40 min",
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=0"
         },
         "EMPTY",
         "EMPTY"
       ]
     },
     {
-      "time": "10h00 - 10h20",
-      "begin": "10h00",
+      "time": "10h15 - 10h35",
+      "begin": "10h15",
       "slots": 1,
       "type": "talk",
       "tracks": [
         {
-          "title": "Le solfège en 20 minutes",
-          "authors": ["Serge Hardy"],
-          "category": "💡  Discovery",
+          "title": "REX Design System",
+          "authors": ["Faustine Godbillot", "Simon Mamalet - Ouest-France"],
+          "category": "💚 UX",
           "timing": "20 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/577Pg6y4iJyoBiyi8dOk"
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=0"
         },
-        {
-          "title": "ChatGPT et Midjourney... en pur local sur mon Mac",
-          "authors": ["Benoit Couetil"],
-          "category": "🤖 Data & AI",
-          "timing": "20 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/voPjqEKAzrpfK3CHXI5K"
-        },
-        {
-          "title": "Les images et le web ! (et sinon j'ai pas suivi, c'est GIF ou JIF?)",
-          "authors": ["Antoine Le Chapelain"],
-          "category": "🌍  Web",
-          "timing": "20 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/3TagDd31lzZVUrC63RMB"
-        }
+        "EMPTY",
+        "EMPTY"
       ]
     },
     {
-      "time": "10h20 - 10h50",
-      "begin": "10h20",
+      "time": "10h35 - 10h50",
+      "begin": "10h35",
       "slots": 1,
       "type": "pause",
       "tracks": [
@@ -66,52 +72,41 @@
     {
       "time": "10h50 - 11h30",
       "begin": "10h50",
-      "slots": 3,
+      "slots": 2,
       "type": "talk",
       "tracks": [
         {
-          "title": "🧐 L’observabilité pour les noobs : une introduction aux outils et techniques clés !",
-          "authors": ["Hugues Connan", "Nicolas Bouron"],
-          "category": "☁️  DevOps & Cloud",
+          "title": "Accompagner l’adoption d’un cluster Kafka en production avec sérénité !",
+          "authors": ["Adrien Wattez", "Anthony Delanoe - G2S Groupama"],
+          "category": "👷‍♂️ Back-End & Architecture",
           "timing": "40 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/aBtiKAE5kZrEQmBw4m3R"
-        },
-        {
-          "title": "POEI, un acronyme complexe pour une belle aventure !",
-          "authors": ["Adrien Wattez", "Faustine Godbillot"],
-          "category": "🍻  Not tech",
-          "timing": "40 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/8bzDQCjGK8uF6ahgM5pF"
-        },
-        {
-          "title": "Réalité virtuelle, industrie et innovation",
-          "authors": ["Sébastien Palud"],
-          "category": "💡  Discovery",
-          "timing": "40 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/F6XmCHuK8uM4rpAZGSOQ"
-        }
-      ]
-    },
-    {
-      "time": "11h40 - 12h00",
-      "begin": "11h40",
-      "slots": 1,
-      "type": "talk",
-      "tracks": [
-        {
-          "title": "🍻 Keynote 🍻",
-          "authors": ["Stéphane Le Boucher"],
-          "category": "🍻  Not tech",
-          "timing": "20 min"
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=0"
         },
         "EMPTY",
         "EMPTY"
       ]
     },
     {
-      "time": "12h00 - 14h00",
-      "begin": "12h10",
-      "slots": 3,
+      "time": "11h35 - 12h15",
+      "begin": "11h35",
+      "slots": 2,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Une App Mobile ambitieuse et from scratch en 2024",
+          "authors": ["Loïc Truchot", "Guillaume Moreau - Brittany Ferries"],
+          "category": "🌍 Front-End & Mobile",
+          "timing": "40 min",
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=0"
+        },
+        "EMPTY",
+        "EMPTY"
+      ]
+    },
+    {
+      "time": "12h15 - 13h50",
+      "begin": "12h15",
+      "slots": 1,
       "type": "pause",
       "tracks": [
         {
@@ -132,108 +127,118 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "\"Bonjour je suis Chef de Projet, Scrum Master, Coach Agile, Coach d'équipe...\" \"ok mais tu sais faire quoi au final ?\"",
-          "authors": ["Kevin Danezis"],
-          "category": "🍻  Not tech",
-          "timing": "20 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/PdWNbeUEIHtDFmctHH3t"
-        },
-        {
-          "title": "La haute disponibilité : quelles conséquences pour un dev ?",
-          "authors": ["Hugo Métivier"],
+          "title": "Comment développer un plugin IntelliJ",
+          "authors": ["Malo Toanen"],
           "category": "👷‍♂️ Back-End & Architecture",
           "timing": "20 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/o5jHXrUnCcpDKUyc6mtd"
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         },
         {
-          "title": "☀️ somewhere over the rainbow 🌈",
-          "authors": ["Olivier Le Lay"],
-          "category": "💡  Discovery",
+          "title": "Vérifier que vos tests servent à quelque chose avec le mutation testing",
+          "authors": ["Faustine Godbillot"],
+          "category": "👷‍♂️ Back-End & Architecture",
           "timing": "20 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/44xpJArcaGRReqaer2iF"
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
+        },
+        {
+          "title": "putain-d_alilo",
+          "authors": ["Loïc Truchot"],
+          "category": "💡 Découverte",
+          "timing": "20 min",
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         }
       ]
     },
     {
-      "time": "14h30 - 14h50",
-      "begin": "14h30",
+      "time": "14h25 - 15h10",
+      "begin": "14h25",
+      "slots": 3,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "APIs ❤️ HTML",
+          "authors": ["Benoit Averty"],
+          "category": "💡 Découverte",
+          "timing": "40 min",
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
+        },
+        {
+          "title": "LLM: Gagnez votre indépendance",
+          "authors": ["Benoit Couëtil", "Maximilien De Couasnon", "Yoan Rousseau"],
+          "category": "🤖 Data & AI",
+          "timing": "40 min",
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
+        },
+        {
+          "title": "Comment fonctionne l'utilisation de la mémoire dans une JVM ?",
+          "authors": ["Hugo Métivier"],
+          "category": "👷‍♂️ Back-End & Architecture",
+          "timing": "40 min",
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
+        }
+      ]
+    },
+    {
+      "time": "15h10 - 15h30",
+      "begin": "15h10",
       "slots": 1,
       "type": "talk",
       "tracks": [
         {
-          "title": "Comment passer d'un navire à un autre",
-          "authors": ["Nicolas Leport"],
-          "category": "💡  Discovery",
-          "timing": "20 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/6t3bREw7yKemNjAhwHWg"
-        },
-        {
-          "title": "Au goulot ! 🍾 Trouver et piloter le goulot d'étranglement d'un projet",
+          "title": "La Diva 👑, la Rockstar 🎸 et le consultant 💁",
           "authors": ["Antoine Cailly"],
-          "category": "🖍  Agility",
+          "category": "💡 Découverte",
           "timing": "20 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/yIlw9EtTHFZ2G2CIJC0N"
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         },
         {
-          "title": "  — Je m'appelle Claude », « — Je te coup' plaô »… « — Je… m'appelle… Claude », « — Je te floup… fli »",
-          "authors": ["Jean-Louis Jouannic"],
-          "category": "🌍  Web",
+          "title": "Le bingo du produit",
+          "authors": ["Karine Sabatier"],
+          "category": "®️ Produit",
           "timing": "20 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/diheNR2kzMllljCVl1S6"
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
+        },
+        {
+          "title": "Récap Google Cloud Next'24",
+          "authors": ["Nicolas Bouron"],
+          "category": "☁️ DevOps & Cloud",
+          "timing": "20 min",
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         }
       ]
     },
     {
-      "time": "15h00 - 15h20",
-      "begin": "15h00",
-      "slots": 2,
+      "time": "15h35 - 15h55",
+      "begin": "15h35",
+      "slots": 1,
       "type": "talk",
       "tracks": [
         {
-          "title": "Avez vous besoin d'un mono ou d'un multi ?",
-          "authors": ["Benoit Couetil", "Jérôme Marchand"],
-          "category": "☁️  DevOps & Cloud",
-          "timing": "40 min",
-          "span": 2,
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/kQNiAZn6EGbHW5Rwyguc"
-        },
-        {
-          "title": "REX : refonte en écoconception des services numériques de la Scop La Maison Écologique",
-          "authors": ["Sylvain Révéreault"],
-          "category": "🌳 Green",
-          "timing": "40 min",
-          "span": 2,
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/zWWtAE03p00Ad5vo8oDp"
-        },
-        {
-          "title": "J'ai publié une nouvelle ! 😱",
-          "authors": ["Gabriel Queste"],
-          "category": "🍻  Not tech",
+          "title": "Range ta chambre, et va faire ton CLI",
+          "authors": ["Pierre Duros"],
+          "category": "👷‍♂️ Back-End & Architecture",
           "timing": "20 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/JkARtFHt3X4YfTSRnMJs"
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
+        },
+        {
+          "title": "Gérez la mise à jour de vos dépendances sans effort avec Renovate",
+          "authors": ["Laurent Perrin", "Florian Cartron"],
+          "category": "☁️ DevOps & Cloud",
+          "timing": "20 min",
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
+        },
+        {
+          "title": "Biais cognitifs et lutte informationnelle",
+          "authors": ["Florian Simon"],
+          "category": "💡 Découverte",
+          "timing": "20 min",
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         }
       ]
     },
     {
-      "time": "15h30 - 15h50",
-      "begin": "15h30",
-      "slots": 2,
-      "type": "talk",
-      "tracks": [
-        {},
-        {},
-        {
-          "title": "Devenir blogueur tech : Pas si dur",
-          "authors": ["Damien Le Dantec"],
-          "category": "🍻  Not tech",
-          "timing": "20 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/1e0Co0Qt3V06K2rdv4gR"
-        }
-      ]
-    },
-    {
-      "time": "15h50 - 16h10",
-      "begin": "15h50",
+      "time": "15h55 - 16h15",
+      "begin": "15h55",
       "slots": 1,
       "type": "pause",
       "tracks": [
@@ -249,74 +254,77 @@
       ]
     },
     {
-      "time": "16h10 - 16h30",
-      "begin": "16h10",
-      "slots": 1,
-      "type": "special",
-      "tracks": [
-        {
-          "title": "Présentation Open Forum"
-        },
-        {},
-        {}
-      ]
-    },
-    {
-      "time": "16h30 - 16h50",
-      "begin": "16h30",
+      "time": "16h15 - 16h35",
+      "begin": "16h15",
       "slots": 1,
       "type": "talk",
       "tracks": [
         {
-          "title": "La bienveillance, c'est de la merde",
-          "authors": ["Malo Toanen", "Luc Sorel-Giffo"],
-          "category": "🍻  Not tech",
+          "title": "Comment certains outils du mentalisme m’aident au quotidien",
+          "authors": ["Mickaël"],
+          "category": "💡 Découverte",
           "timing": "20 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/cHIbhPWUBDb9wn9c3Epa"
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         },
         {
-          "title": "À définir"
+          "title": "Dark Patterns - it's not a bug, it's a feature",
+          "authors": ["Antoine Le Chapelain"],
+          "category": "💚 UX",
+          "timing": "20 min",
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         },
         {
-          "title": "Mettre ses pixels en mouvement : une introduction au motion capture",
-          "authors": ["Damien Aranda"],
-          "category": "💡  Discovery",
+          "title": "20 min de livecoding pour vous faire découvrir D3.js… (C'est mort, mais on va essayer quand même)",
+          "authors": ["Jean-Louis Jouannic"],
+          "category": "🌍 Front-End & Mobile",
           "timing": "20 min",
-          "url": "https://conference-hall.io/organizer/event/EOXjEMVSsf9cqMFdWOLl/proposals/R6VAPts0gttQnUkb9T51"
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         }
       ]
     },
     {
-      "time": "17h00 - 17h20",
-      "begin": "17h00",
-      "slots": 1,
+      "time": "16h40 - 17h20",
+      "begin": "16h40",
+      "slots": 3,
       "type": "talk",
       "tracks": [
         {
-          "title": "À définir"
+          "title": "[Rex] EDF : voyageons sur les îles de France",
+          "authors": ["Nicolas Leport"],
+          "category": "💡 Découverte",
+          "timing": "40 min",
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         },
         {
-          "title": "À définir"
+          "title": "Git sous le Capot",
+          "authors": ["Damien Aranda, Alexandre Melle"],
+          "category": "💡 Découverte",
+          "timing": "40 min",
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         },
         {
-          "title": "À définir"
+          "title": "Atelier discussion autour du photovoltaïque",
+          "authors": ["Valentin Got", "Olivier Le Lay", "Yoan Rousseau"],
+          "category": "💡 Découverte",
+          "timing": "20 min",
+          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         }
       ]
     },
     {
-      "time": "17h30 - 17h50",
-      "begin": "17h30",
+      "time": "17h30 - 23h",
+      "begin": "9h",
       "slots": 1,
-      "type": "talk",
+      "type": "pause",
       "tracks": [
         {
-          "title": "À définir"
+          "title": "LA BASSE COUR 🚲 🧺 🥖"
         },
         {
-          "title": "À définir"
+          "title": "LA BASSE COUR 🚲 🧺 🥖"
         },
         {
-          "title": "À définir"
+          "title": "LA BASSE COUR 🚲 🧺 🥖"
         }
       ]
     }
