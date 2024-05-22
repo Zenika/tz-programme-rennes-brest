@@ -199,9 +199,9 @@
           "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         },
         {
-          "title": "Récap Google Cloud Next'24",
-          "authors": ["Nicolas Bouron"],
-          "category": "☁️ DevOps & Cloud",
+          "title": "Atelier discussion autour du photovoltaïque",
+          "authors": ["Valentin Got", "Olivier Le Lay", "Yoan Rousseau"],
+          "category": "💡 Découverte",
           "timing": "20 min",
           "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         }
@@ -303,10 +303,10 @@
           "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         },
         {
-          "title": "Atelier discussion autour du photovoltaïque",
-          "authors": ["Valentin Got", "Olivier Le Lay", "Yoan Rousseau"],
-          "category": "💡 Découverte",
-          "timing": "20 min",
+          "title": "Récap Google Cloud Next'24",
+          "authors": ["Nicolas Bouron"],
+          "category": "☁️ DevOps & Cloud",
+          "timing": "40 min",
           "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         }
       ]
