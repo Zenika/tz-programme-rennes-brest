@@ -1,5 +1,5 @@
 {
-  "tracks": ["Le hub", "L'atelier", "Le FabLab"],
+  "tracks": ["Le hub", "L'atelier", "Le fablab"],
   "slots": [
     {
       "time": "9h - 9h30",
@@ -312,8 +312,21 @@
       ]
     },
     {
-      "time": "17h30 - 23h",
-      "begin": "9h",
+      "time": "17h30 - 18h",
+      "begin": "17h30h",
+      "slots": 1,
+      "type": "pause",
+      "tracks": [
+        {
+          "title": "Le quiz des bambins 👶"
+        },
+        "EMPTY",
+        "EMPTY"
+      ]
+    },
+    {
+      "time": "18h - 23h",
+      "begin": "18h",
       "slots": 1,
       "type": "pause",
       "tracks": [
