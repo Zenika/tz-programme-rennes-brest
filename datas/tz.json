@@ -19,15 +19,28 @@
       ]
     },
     {
-      "time": "9h30 - 10h10",
-      "begin": "9h30",
+      "time": "9h - 9h30",
+      "begin": "9h",
+      "slots": 1,
+      "type": "pause",
+      "tracks": [
+        {
+          "title": "Ouverture de la TZ"
+        },
+        "EMPTY",
+        "EMPTY"
+      ]
+    },
+    {
+      "time": "9h40 - 10h20",
+      "begin": "9h40",
       "slots": 2,
       "type": "talk",
       "tracks": [
         {
-          "title": "REX projet Sinari, les tops, les flops et les apprentissages",
-          "authors": ["Karine Sabatier", "Fabien Grellier - Sinari"],
-          "category": "®️ Produit",
+          "title": "Accompagner l’adoption d’un cluster Kafka en production avec sérénité !",
+          "authors": ["Adrien Wattez", "Anthony Delanoe - G2S Groupama"],
+          "category": "👷‍♂️ Back-End & Architecture",
           "timing": "40 min",
           "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=0"
         },
@@ -36,24 +49,7 @@
       ]
     },
     {
-      "time": "10h15 - 10h35",
-      "begin": "10h15",
-      "slots": 1,
-      "type": "talk",
-      "tracks": [
-        {
-          "title": "REX Design System",
-          "authors": ["Faustine Godbillot", "Simon Mamalet - Ouest-France"],
-          "category": "💚 UX",
-          "timing": "20 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=0"
-        },
-        "EMPTY",
-        "EMPTY"
-      ]
-    },
-    {
-      "time": "10h35 - 10h50",
+      "time": "10h20 - 10h50",
       "begin": "10h35",
       "slots": 1,
       "type": "pause",
@@ -76,9 +72,9 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "Accompagner l’adoption d’un cluster Kafka en production avec sérénité !",
-          "authors": ["Adrien Wattez", "Anthony Delanoe - G2S Groupama"],
-          "category": "👷‍♂️ Back-End & Architecture",
+          "title": "Une App Mobile ambitieuse et from scratch en 2024",
+          "authors": ["Loïc Truchot", "Guillaume Moreau - Brittany Ferries"],
+          "category": "🌍 Front-End & Mobile",
           "timing": "40 min",
           "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=0"
         },
@@ -93,9 +89,9 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "Une App Mobile ambitieuse et from scratch en 2024",
-          "authors": ["Loïc Truchot", "Guillaume Moreau - Brittany Ferries"],
-          "category": "🌍 Front-End & Mobile",
+          "title": "REX projet Sinari, les tops, les flops et les apprentissages",
+          "authors": ["Karine Sabatier", "Fabien Grellier - Sinari"],
+          "category": "®️ Produit",
           "timing": "40 min",
           "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=0"
         },
