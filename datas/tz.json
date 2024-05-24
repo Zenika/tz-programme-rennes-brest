@@ -150,7 +150,7 @@
       ]
     },
     {
-      "time": "14h25 - 15h10",
+      "time": "14h25 - 15h05",
       "begin": "14h25",
       "slots": 3,
       "type": "talk",
@@ -163,7 +163,7 @@
           "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
         },
         {
-          "title": "LLM: Gagnez votre indépendance",
+          "title": "LLM : Gagnez votre indépendance",
           "authors": ["Benoit Couëtil", "Maximilien De Couasnon", "Yoan Rousseau"],
           "category": "🤖 Data & AI",
           "timing": "40 min",
