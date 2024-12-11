@@ -9,6 +9,17 @@ table {
   border-radius: 8px;
   overflow: hidden;
 
+  @include breakpoint($bigPhone) {
+    &,
+    tbody,
+    tr,
+    td,
+    th {
+      display: block;
+      width: 100%;
+    }
+  }
+
   th,
   td {
     padding: 1em;
@@ -20,11 +31,19 @@ table {
 
     &:not([col="time"]) {
       width: 336px;
+
+      @include breakpoint($bigPhone) {
+        width: 100%;
+      }
     }
   }
 
   thead {
     background: linear-gradient(45deg, #ee2238, #bf1d67);
+
+    @include breakpoint($bigPhone) {
+      display: none;
+    }
 
     th {
       padding: 0.5em 1em;
@@ -47,9 +66,29 @@ table {
     td {
       border: 1px solid rgba(black, 0.16);
 
+      @include breakpoint($bigPhone) {
+        margin: -1px 0;
+        border-left: 0 !important;
+        border-right: 0 !important;
+
+        &.empty {
+          display: none;
+        }
+
+        &[data-type="Présentation Open Forum"] ~ [data-type],
+        &[data-type="Pause"] ~ [data-type="Pause"],
+        &[data-type="Repas"] ~ [data-type="Repas"] {
+          display: none;
+        }
+      }
+
       &[col="time"] {
         font-size: 0.88em;
         font-weight: bold;
+
+        @include breakpoint($bigPhone) {
+          display: none;
+        }
       }
 
       &:last-child {
@@ -58,10 +97,6 @@ table {
       &:first-child {
         border-left: 0;
       }
-    }
-
-    &:nth-child(odd) {
-      background: rgba(black, 0.08);
     }
 
     &.talk {
@@ -73,6 +108,25 @@ table {
       }
       &[data-height="1"] {
         height: 40px;
+      }
+
+      @include breakpoint($bigPhone) {
+        &[data-height] {
+          height: auto;
+        }
+
+        td {
+          background: white;
+        }
+
+        td::before {
+          content: attr(data-track) " / " attr(data-time);
+          font-weight: bold;
+          font-size: 0.75em;
+          margin-bottom: 0.5em;
+          display: block;
+          color: #bf1d67;
+        }
       }
     }
 
@@ -102,6 +156,12 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 3em 1em 1em;
+
+  @include breakpoint($bigPhone) {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 2em;
+  }
 
   h1,
   p {

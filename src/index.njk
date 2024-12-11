@@ -10,7 +10,7 @@
   <div class="container">
     <header>
       <div>
-      <h1>TZ Rennes/Brest du 01 avril 2022</h1>
+      <h1>TZ Rennes 24 mai 2024</h1>
       <p>Programme de la journée</p>
       </div>
       <img src="img/logozenika.svg" alt="">
@@ -21,11 +21,12 @@
         <thead>
             <tr>
                 <th col="time">Horaire</th>
-                <th>Track 1</th>
-                <th>Track 2</th>
-                <th>Track 3</th>
+                {% for track in tz.tracks %}
+                  <th>Track {{ loop.index }} - {{ track }}</th>
+                {% endfor %}
             </tr>
         </thead>
+
         <tbody>
           {% for slot in tz.slots %}
             <tr class="{{ slot.type }}" data-height="{{ slot.slots }}">
@@ -34,17 +35,21 @@
               {% for track in slot.tracks %}
                 {% if slot.type === 'talk' %}
                     {% if track.title %}
-                      <td {% if track.span %}rowspan="{{ track.span }}"{% endif %}>
+                      <td {% if track.span %}rowspan="{{ track.span }}"{% endif %} data-time="{{ slot.begin }}" data-track="Track {{ loop.index }} - {{ tz.tracks[loop.index - 1] }}">
                         <h2>{{ track.title | safe }}</h2>
                         <p>{% set comma = joiner(' &') %}{% for author in track.authors -%}{{ comma() }} {{ author }}{%- endfor %}</p>
 
                         <p>🕑&nbsp;&nbsp;{{ track.timing }} - {{ track.category | safe }}</p>
+
+                        {% if track.url %}
+                        <p>🔍&nbsp;&nbsp;<a href="{{ track.url}}" target="_blank">Lien vers la description ↗</a></p>
+                        {% endif %}
                       </td>
                     {% elif track === "EMPTY"  %}
                       <td class="empty"></td>
                     {% endif %}
                 {% else %}
-                      <td>{{ track.title }}</td>
+                      <td data-type="{{ track.title }}">{{ track.title }}</td>
                 {% endif %}
               {% endfor %}
             </tr>

@@ -128,6 +128,7 @@ function dev(cb) {
 
   watch("src/scss/**/*.scss", scss);
   watch("src/**/*.njk", njk).on("change", browserSync.reload);
+  watch("datas/**/*.json", njk).on("change", browserSync.reload);
   watch("src/img/**/*", img);
   watch("src/icons/**/*", svgMin);
 
