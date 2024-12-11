@@ -2,107 +2,39 @@
   "tracks": ["Le hub", "L'atelier", "Le fablab"],
   "slots": [
     {
-      "time": "9h - 9h30",
-      "begin": "9h",
+      "time": "12h00 - 12h15",
+      "begin": "12h00",
       "slots": 1,
-      "type": "pause",
+      "type": "special",
       "tracks": [
         {
-          "title": "Petit-déjeuner"
-        },
-        {
-          "title": "Petit-déjeuner"
-        },
-        {
-          "title": "Petit-déjeuner"
-        }
-      ]
-    },
-    {
-      "time": "9h - 9h30",
-      "begin": "9h",
-      "slots": 1,
-      "type": "pause",
-      "tracks": [
-        {
-          "title": "Ouverture de la TZ"
+          "title": "Introduction TZ"
         },
         "EMPTY",
         "EMPTY"
       ]
     },
     {
-      "time": "9h40 - 10h20",
-      "begin": "9h40",
-      "slots": 2,
-      "type": "talk",
-      "tracks": [
-        {
-          "title": "Accompagner l’adoption d’un cluster Kafka en production avec sérénité !",
-          "authors": ["Adrien Wattez", "Anthony Delanoe - G2S Groupama"],
-          "category": "👷‍♂️ Back-End & Architecture",
-          "timing": "40 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=0"
-        },
-        "EMPTY",
-        "EMPTY"
-      ]
-    },
-    {
-      "time": "10h20 - 10h50",
-      "begin": "10h35",
-      "slots": 1,
-      "type": "pause",
-      "tracks": [
-        {
-          "title": "Pause"
-        },
-        {
-          "title": "Pause"
-        },
-        {
-          "title": "Pause"
-        }
-      ]
-    },
-    {
-      "time": "10h50 - 11h30",
-      "begin": "10h50",
-      "slots": 2,
-      "type": "talk",
-      "tracks": [
-        {
-          "title": "Une App Mobile ambitieuse et from scratch en 2024",
-          "authors": ["Loïc Truchot", "Guillaume Moreau - Brittany Ferries"],
-          "category": "🌍 Front-End & Mobile",
-          "timing": "40 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=0"
-        },
-        "EMPTY",
-        "EMPTY"
-      ]
-    },
-    {
-      "time": "11h35 - 12h15",
-      "begin": "11h35",
-      "slots": 2,
-      "type": "talk",
-      "tracks": [
-        {
-          "title": "REX projet Sinari, les tops, les flops et les apprentissages",
-          "authors": ["Karine Sabatier", "Fabien Grellier - Sinari"],
-          "category": "®️ Produit",
-          "timing": "40 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=0"
-        },
-        "EMPTY",
-        "EMPTY"
-      ]
-    },
-    {
-      "time": "12h15 - 13h50",
+      "time": "12h15 - 12h45",
       "begin": "12h15",
       "slots": 1,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Keynote",
+          "authors": ["Cécile Le Naour"],
+          "category": "💡 Découverte",
+          "timing": "30 min",
+          "summary": ""
+        },
+        "EMPTY",
+        "EMPTY"
+      ]
+    },
+    {
+      "time": "12h45 - 13h45",
+      "begin": "12h45",
+      "slots": 1,
       "type": "pause",
       "tracks": [
         {
@@ -117,124 +49,86 @@
       ]
     },
     {
-      "time": "14h00 - 14h20",
-      "begin": "14h00",
+      "time": "13h45 - 13h55",
+      "begin": "13h45",
       "slots": 1,
-      "type": "talk",
+      "type": "special",
       "tracks": [
         {
-          "title": "Comment développer un plugin IntelliJ",
-          "authors": ["Malo Toanen"],
+          "title": "Animation surprise"
+        },
+        "EMPTY",
+        "EMPTY"
+      ]
+    },
+    {
+      "time": "14h00 - 14h30",
+      "begin": "14h00",
+      "slots": 2,
+      "type": "talk",
+      "tracks": [
+        "EMPTY",
+        {
+          "title": "Pourquoi les bases de données sont elles si rapides ?",
+          "authors": ["Maxime Maigret"],
           "category": "👷‍♂️ Back-End & Architecture",
-          "timing": "20 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
+          "timing": "30 min",
+          "summary": "Exploration des profondeurs des bases de données, bonnes pratiques sur l'usage des ID, live example de la construction d'un indexe"
         },
         {
-          "title": "Vérifier que vos tests servent à quelque chose avec le mutation testing",
-          "authors": ["Faustine Godbillot"],
-          "category": "👷‍♂️ Back-End & Architecture",
-          "timing": "20 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
-        },
-        {
-          "title": "putain-d_alilo",
-          "authors": ["Loïc Truchot"],
+          "title": "Comment documenter mon travail du quotidien (en tant que Delivery Manager)",
+          "authors": ["Kevin Danezis"],
           "category": "💡 Découverte",
-          "timing": "20 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
+          "timing": "30 min",
+          "summary": "Pourquoi avons nous besoin de prendre des notes ? Pour qui ? Quels outils sont disponibles ?\nPlein de questions et pour y répondre je vous présenterai la chaine suivante : Syncthing / Logseq / NotebookLM & Tailsale, mes tests, mes échecs et les limites du jeu."
         }
       ]
     },
     {
-      "time": "14h25 - 15h05",
-      "begin": "14h25",
+      "time": "14h40 - 15h30",
+      "begin": "14h40",
       "slots": 3,
       "type": "talk",
       "tracks": [
         {
-          "title": "APIs ❤️ HTML",
-          "authors": ["Benoit Averty"],
+          "title": "REX School of Product 2024",
+          "authors": ["Karine", "Marie", "Nicolas"],
+          "category": "💚 Produit",
+          "timing": "50 min",
+          "summary": "Les confs qu'on a vues mais surtout ce qu'on a aimé / pas aimé, ce qu'on a appris et avec quoi on repart..."
+        },
+        {
+          "title": "Comment retravailler ce code pour le rendre plus propre",
+          "authors": ["Dylan Behetre"],
+          "category": "💪 Craftsmanship",
+          "timing": "50 min",
+          "summary": "Refactoring d'un code de manière collective mais guidé pour essayer de transmettre ma vision du Clean Code"
+        },
+        {
+          "title": "Decouverte du CTF avec HackTheBox",
+          "authors": ["Olivier Le Lay"],
           "category": "💡 Découverte",
-          "timing": "40 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
-        },
-        {
-          "title": "LLM : Gagnez votre indépendance",
-          "authors": ["Benoit Couëtil", "Maximilien De Couasnon", "Yoan Rousseau"],
-          "category": "🤖 Data & AI",
-          "timing": "40 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
-        },
-        {
-          "title": "Comment fonctionne l'utilisation de la mémoire dans une JVM ?",
-          "authors": ["Hugo Métivier"],
-          "category": "👷‍♂️ Back-End & Architecture",
-          "timing": "40 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
+          "timing": "50 min",
+          "summary": "initiation au CTF au travers d'un mob programming. L'idée est de prendre des challenge forensic ou web de la plateform HTB et de tenter de les resoudres ensemble. Idéalement au minimum 4 participants pour être à l'aise"
         }
       ]
     },
     {
-      "time": "15h10 - 15h30",
-      "begin": "15h10",
+      "time": "15h30 - 15h45",
+      "begin": "15h30",
       "slots": 1,
-      "type": "talk",
+      "type": "special",
       "tracks": [
         {
-          "title": "La Diva 👑, la Rockstar 🎸 et le consultant 💁",
-          "authors": ["Antoine Cailly"],
-          "category": "💡 Découverte",
-          "timing": "20 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
+          "title": "Animation surprise"
         },
-        {
-          "title": "Le bingo du produit",
-          "authors": ["Karine Sabatier"],
-          "category": "®️ Produit",
-          "timing": "20 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
-        },
-        {
-          "title": "Atelier discussion autour du photovoltaïque",
-          "authors": ["Valentin Got", "Olivier Le Lay", "Yoan Rousseau"],
-          "category": "💡 Découverte",
-          "timing": "20 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
-        }
+        "EMPTY",
+        "EMPTY"
       ]
     },
     {
-      "time": "15h35 - 15h55",
-      "begin": "15h35",
-      "slots": 1,
-      "type": "talk",
-      "tracks": [
-        {
-          "title": "Range ta chambre, et va faire ton CLI",
-          "authors": ["Pierre Duros"],
-          "category": "👷‍♂️ Back-End & Architecture",
-          "timing": "20 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
-        },
-        {
-          "title": "Gérez la mise à jour de vos dépendances sans effort avec Renovate",
-          "authors": ["Laurent Perrin", "Florian Cartron"],
-          "category": "☁️ DevOps & Cloud",
-          "timing": "20 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
-        },
-        {
-          "title": "Biais cognitifs et lutte informationnelle",
-          "authors": ["Florian Simon"],
-          "category": "💡 Découverte",
-          "timing": "20 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
-        }
-      ]
-    },
-    {
-      "time": "15h55 - 16h15",
-      "begin": "15h55",
+      "time": "15h45 - 16h00",
+      "begin": "15h45",
       "slots": 1,
       "type": "pause",
       "tracks": [
@@ -250,90 +144,128 @@
       ]
     },
     {
-      "time": "16h15 - 16h35",
-      "begin": "16h15",
-      "slots": 1,
+      "time": "16h00 - 16h30",
+      "begin": "16h00",
+      "slots": 2,
       "type": "talk",
       "tracks": [
         {
-          "title": "Comment certains outils du mentalisme m’aident au quotidien",
-          "authors": ["Mickaël"],
+          "title": "Live Coding : DSL de test en Kotlin",
+          "authors": ["Malo Toanen"],
+          "category": "👷‍♂️ Back-End & Architecture",
+          "timing": "30 min",
+          "summary": "Améliorons la lisibilité et la réutilisabilité de nos assertions en écrivant notre propre DSL, grâce au pouvoir de l'amitié Kotlin"
+        },
+        {
+          "title": "Crowdstrike",
+          "authors": ["Florian Simon"],
+          "category": "🔐 Cybersécurité",
+          "timing": "30 min",
+          "summary": "Ou comment une erreur basique a paralysé le monde pendant plus de 12h"
+        },
+        {
+          "title": "Esperanto",
+          "authors": ["Guillaume Fayemi"],
           "category": "💡 Découverte",
-          "timing": "20 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
-        },
-        {
-          "title": "Dark Patterns - it's not a bug, it's a feature",
-          "authors": ["Antoine Le Chapelain"],
-          "category": "💚 UX",
-          "timing": "20 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
-        },
-        {
-          "title": "20 min de livecoding pour vous faire découvrir D3.js… (C'est mort, mais on va essayer quand même)",
-          "authors": ["Jean-Louis Jouannic"],
-          "category": "🌍 Front-End & Mobile",
-          "timing": "20 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
+          "timing": "30 min",
+          "summary": "La temo de ĉi tiu parolado ŝajnas esti malaperinta..."
         }
       ]
     },
     {
-      "time": "16h40 - 17h20",
+      "time": "16h40 - 17h30",
       "begin": "16h40",
       "slots": 3,
       "type": "talk",
       "tracks": [
         {
-          "title": "[Rex] EDF : voyageons sur les îles de France",
-          "authors": ["Nicolas Leport"],
+          "title": "E-Plans - Thérapie de groupe",
+          "authors": [
+            "Florian S",
+            "Dorian",
+            "Antoine LC",
+            "Benoit V",
+            "Benoit C",
+            "Gwenolé",
+            "Hugues"
+          ],
           "category": "💡 Découverte",
-          "timing": "40 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
+          "timing": "50 min",
+          "summary": "Rétrospective et retour d'expérience sur le projet e-Plans d'Enedis"
         },
         {
-          "title": "Git sous le Capot",
-          "authors": ["Damien Aranda, Alexandre Melle"],
-          "category": "💡 Découverte",
-          "timing": "40 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
-        },
-        {
-          "title": "Récap Google Cloud Next'24",
+          "title": "20 000 nuages sous les mers",
           "authors": ["Nicolas Bouron"],
           "category": "☁️ DevOps & Cloud",
-          "timing": "40 min",
-          "url": "https://docs.google.com/spreadsheets/d/1GSzbXhqhvS2Ourhvqpc1PPCUgOAvK7eq1r5RlnpEHKk/edit#gid=1821491780"
+          "timing": "50 min",
+          "summary": ""
+        },
+        {
+          "title": "Opentelemetry et les Waterfall c'est sujet jolie, mais comment je peux en ajouter encore + dans une application JAVA ?",
+          "authors": ["Jérôme Marchand"],
+          "category": "👷‍♂️ Back-End & Architecture",
+          "timing": "50 min",
+          "summary": "Utilisons l'agent OTEL JAVA pour comprendre le chemin des appels dans une application dont on a les sources mais qu'on ne peut pas recompiler."
         }
       ]
     },
     {
-      "time": "17h30 - 18h",
-      "begin": "17h30h",
-      "slots": 1,
-      "type": "pause",
+      "time": "17h40 - 18h10",
+      "begin": "17h40",
+      "slots": 2,
+      "type": "talk",
       "tracks": [
         {
-          "title": "Le quiz des bambins 👶"
+          "title": "REX SeeYouSun : Ton métier est trop compliqué, code à ma place",
+          "authors": ["Gabriel Queste"],
+          "category": "💡 Découverte",
+          "timing": "30 min",
+          "summary": "Manque de temps, de ressources et complexité métier. Retour sur la stratégie utilisée pour booster un projet avec les moyens du bord"
+        },
+        {
+          "title": "REX J'ai été juré en cour d'assises",
+          "authors": ["Alexandre Melle Maigret"],
+          "category": "💡 Découverte",
+          "timing": "30 min",
+          "summary": ""
+        },
+        {
+          "title": "Emmerdification des plateformes (ou la fin des Internets)",
+          "authors": ["Karine Sabatier"],
+          "category": "💚 Produit",
+          "timing": "30 min",
+          "summary": "Venez découvrir le concept d'enshittification et surtout en comprendre les rouages pour ne pas participer à faire de la 💩💩💩 dans les produits numériques"
+        }
+      ]
+    },
+    {
+      "time": "18h10 - 18h30",
+      "begin": "18h10",
+      "slots": 2,
+      "type": "special",
+      "tracks": [
+        {
+          "title": "Animation surprise — Clotûre TZ — Secret Santa"
         },
         "EMPTY",
         "EMPTY"
       ]
     },
+
     {
-      "time": "18h - 23h",
-      "begin": "18h",
-      "slots": 1,
+      "time": "19h - 23h",
+      "begin": "19h",
+      "slots": 2,
       "type": "pause",
       "tracks": [
         {
-          "title": "LA BASSE COUR 🚲 🧺 🥖"
+          "title": "🎄🧑🏻‍🎄 Repas de Noël 🎉🧀"
         },
         {
-          "title": "LA BASSE COUR 🚲 🧺 🥖"
+          "title": "🎄🧑🏻‍🎄 Repas de Noël 🎉🧀"
         },
         {
-          "title": "LA BASSE COUR 🚲 🧺 🥖"
+          "title": "🎄🧑🏻‍🎄 Repas de Noël 🎉🧀"
         }
       ]
     }
