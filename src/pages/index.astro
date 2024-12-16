@@ -1,0 +1,76 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import { getCollection } from "astro:content";
+import Slot from "../components/Slot.astro";
+import Talk from "../components/Talk.astro";
+
+const program = await getCollection("tz");
+const entry = program[0].data;
+const firstColSize = 12;
+---
+
+<Layout>
+  <Header
+    title={entry.title}
+    description={entry.description}
+    date={entry.date}
+  />
+
+  <table class="w-full my-8 rounded-xl overflow-hidden">
+    <colgroup>
+      <col span="1" style={`width: ${firstColSize}%;`} />
+      {
+        entry.tracks.map(() => (
+          <col
+            span="3"
+            style={`width: ${(100 - firstColSize) / entry.tracks.length}%;`}
+          />
+        ))
+      }
+    </colgroup>
+
+    <thead>
+      <tr>
+        <th class="text-lg p-2">Horaire</th>
+        {
+          entry.tracks.map((track, index) => (
+            <th class="p-2  text-lg">
+              Track {index + 1} - {track}
+            </th>
+          ))
+        }
+      </tr>
+    </thead>
+
+    <tbody>
+      {
+        entry.slots.map((slot) => (
+          <Slot
+            start={slot.start}
+            end={slot.end}
+            displaySize={slot.displaySize}
+            type={slot.type}
+          >
+            {entry.tracks.map((_, index) => {
+              const item = slot.tracks[index];
+
+              if (typeof item !== "string") {
+                return <Talk {...item} displaySize={slot.displaySize} />;
+              } else if (item === "EMPTY") {
+                return <td />;
+              }
+            })}
+          </Slot>
+        ))
+      }
+    </tbody>
+  </table>
+</Layout>
+
+<style lang="scss">
+  thead {
+    background: linear-gradient(45deg, #ee2238, #bf1d67);
+    color: rgba(white, 0.88);
+  }
+</style>

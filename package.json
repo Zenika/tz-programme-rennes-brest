@@ -1,0 +1,25 @@
+{
+  "name": "tz-programme-rennes",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "generate": "npm run build && node server.cjs",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.3",
+    "@fontsource-variable/nunito": "^5.1.0",
+    "astro": "^5.0.5",
+    "sass": "^1.82.0",
+    "tailwindcss": "^3.4.16"
+  },
+  "devDependencies": {
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "puppeteer": "^23.10.4"
+  }
+}
