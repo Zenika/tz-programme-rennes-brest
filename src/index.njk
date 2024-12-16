@@ -37,7 +37,7 @@
                     {% if track.title %}
                       <td {% if track.span %}rowspan="{{ track.span }}"{% endif %} data-time="{{ slot.begin }}" data-track="Track {{ loop.index }} - {{ tz.tracks[loop.index - 1] }}">
                         <h2>{{ track.title | safe }}</h2>
-                        <p>{% set comma = joiner(' &') %}{% for author in track.authors -%}{{ comma() }} {{ author }}{%- endfor %}</p>
+                        <p>{% set comma = joiner(',') %}{% for author in track.authors -%}{% if loop.last and not loop.first %} &{% else %}{{ comma() }}{% endif %} {{ author }}{%- endfor %}</p>
 
                         <p>🕑&nbsp;&nbsp;{{ track.timing }} - {{ track.category | safe }}</p>
 

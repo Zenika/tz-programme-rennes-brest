@@ -67,7 +67,13 @@
       "slots": 2,
       "type": "talk",
       "tracks": [
-        "EMPTY",
+        {
+          "title": "Emmerdification des plateformes (ou la fin des Internets)",
+          "authors": ["Karine Sabatier"],
+          "category": "💚 Produit",
+          "timing": "30 min",
+          "summary": "Venez découvrir le concept d'enshittification et surtout en comprendre les rouages pour ne pas participer à faire de la 💩💩💩 dans les produits numériques"
+        },
         {
           "title": "Pourquoi les bases de données sont elles si rapides ?",
           "authors": ["Maxime Maigret"],
@@ -224,17 +230,17 @@
         },
         {
           "title": "REX J'ai été juré en cour d'assises",
-          "authors": ["Alexandre Melle Maigret"],
+          "authors": ["Alexandre Melle"],
           "category": "💡 Découverte",
           "timing": "30 min",
           "summary": ""
         },
         {
-          "title": "Emmerdification des plateformes (ou la fin des Internets)",
-          "authors": ["Karine Sabatier"],
-          "category": "💚 Produit",
+          "title": "Rendez votre Cloud (Google) plus vert avec le Greenops ",
+          "authors": ["Laurent Perrin"],
+          "category": "☁️ DevOps & Cloud",
           "timing": "30 min",
-          "summary": "Venez découvrir le concept d'enshittification et surtout en comprendre les rouages pour ne pas participer à faire de la 💩💩💩 dans les produits numériques"
+          "summary": "Est-il possible de réduire l’empreinte carbone de notre infra déployée dans le Cloud ?"
         }
       ]
     },
@@ -245,7 +251,7 @@
       "type": "special",
       "tracks": [
         {
-          "title": "Animation surprise — Clotûre TZ — Secret Santa"
+          "title": "Animation surprise / Clotûre TZ & Secret Santa"
         },
         "EMPTY",
         "EMPTY"
