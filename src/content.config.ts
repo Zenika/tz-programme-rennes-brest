@@ -2,7 +2,7 @@ import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
 
 const tz = defineCollection({
-  loader: glob({ pattern: "**/*.json", base: "./src/data/tz" }),
+  loader: glob({ pattern: "**/*.json", base: "./src/content/tz" }),
   schema: z.object({
     title: z.string(),
     description: z.string(),

@@ -1,0 +1,266 @@
+{
+  "tracks": ["Le hub", "L'atelier", "Le fablab"],
+  "title": "TZ Rennes",
+  "description": "Programme de l'après-midi",
+  "date": "2024-12-20",
+  "slots": [
+    {
+      "start": "2024-12-20T12:00",
+      "end": "2024-12-20T12:15",
+      "displaySize": 1,
+      "type": "special",
+      "tracks": [
+        {
+          "title": "Introduction TZ"
+        },
+        "EMPTY",
+        "EMPTY"
+      ]
+    },
+    {
+      "start": "2024-12-20T12:15",
+      "end": "2024-12-20T12:45",
+      "displaySize": 1,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Keynote",
+          "authors": ["Cécile"],
+          "category": "💡 Découverte",
+          "summary": ""
+        },
+        "EMPTY",
+        "EMPTY"
+      ]
+    },
+    {
+      "start": "2024-12-20T12:45",
+      "end": "2024-12-20T13:45",
+      "displaySize": 1,
+      "type": "pause",
+      "tracks": [
+        {
+          "title": "Repas"
+        },
+        {
+          "title": "Repas"
+        },
+        {
+          "title": "Repas"
+        }
+      ]
+    },
+    {
+      "start": "2024-12-20T13:45",
+      "end": "2024-12-20T13:55",
+      "displaySize": 1,
+      "type": "special",
+      "tracks": [
+        {
+          "title": "Animation surprise"
+        },
+        "EMPTY",
+        "EMPTY"
+      ]
+    },
+    {
+      "start": "2024-12-20T14:00",
+      "end": "2024-12-20T14:30",
+      "displaySize": 2,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Emmerdification des plateformes (ou la fin des Internets)",
+          "authors": ["Karine Sabatier"],
+          "category": "💚 Produit",
+          "summary": "Venez découvrir le concept d'enshittification et surtout en comprendre les rouages pour ne pas participer à faire de la 💩💩💩 dans les produits numériques"
+        },
+        {
+          "title": "Pourquoi les bases de données sont elles si rapides ?",
+          "authors": ["Maxime Maigret"],
+          "category": "👷‍♂️ Back-End & Architecture",
+          "summary": "Exploration des profondeurs des bases de données, bonnes pratiques sur l'usage des ID, live example de la construction d'un indexe"
+        },
+        {
+          "title": "Comment documenter mon travail du quotidien (en tant que Delivery Manager)",
+          "authors": ["Kevin Danezis"],
+          "category": "💡 Découverte",
+          "summary": "Pourquoi avons nous besoin de prendre des notes ? Pour qui ? Quels outils sont disponibles ?\nPlein de questions et pour y répondre je vous présenterai la chaine suivante : Syncthing / Logseq / NotebookLM & Tailsale, mes tests, mes échecs et les limites du jeu."
+        }
+      ]
+    },
+    {
+      "start": "2024-12-20T14:40",
+      "end": "2024-12-20T15:30",
+      "displaySize": 3,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "REX School of Product 2024",
+          "authors": ["Karine", "Marie", "Nicolas"],
+          "category": "💚 Produit",
+          "summary": "Les confs qu'on a vues mais surtout ce qu'on a aimé / pas aimé, ce qu'on a appris et avec quoi on repart..."
+        },
+        {
+          "title": "Comment retravailler ce code pour le rendre plus propre",
+          "authors": ["Dylan Behetre"],
+          "category": "💪 Craftsmanship",
+          "summary": "Refactoring d'un code de manière collective mais guidé pour essayer de transmettre ma vision du Clean Code"
+        },
+        {
+          "title": "Decouverte du CTF avec HackTheBox",
+          "authors": ["Olivier Le Lay"],
+          "category": "💡 Découverte",
+          "summary": "initiation au CTF au travers d'un mob programming. L'idée est de prendre des challenge forensic ou web de la plateform HTB et de tenter de les resoudres ensemble. Idéalement au minimum 4 participants pour être à l'aise"
+        }
+      ]
+    },
+    {
+      "start": "2024-12-20T15:30",
+      "end": "2024-12-20T15:45",
+      "displaySize": 1,
+      "type": "special",
+      "tracks": [
+        {
+          "title": "Animation surprise"
+        },
+        "EMPTY",
+        "EMPTY"
+      ]
+    },
+    {
+      "start": "2024-12-20T15:45",
+      "end": "2024-12-20T16:00",
+      "displaySize": 1,
+      "type": "pause",
+      "tracks": [
+        {
+          "title": "Pause"
+        },
+        {
+          "title": "Pause"
+        },
+        {
+          "title": "Pause"
+        }
+      ]
+    },
+    {
+      "start": "2024-12-20T16:00",
+      "end": "2024-12-20T16:30",
+      "displaySize": 2,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Live Coding : DSL de test en Kotlin",
+          "authors": ["Malo Toanen"],
+          "category": "👷‍♂️ Back-End & Architecture",
+          "summary": "Améliorons la lisibilité et la réutilisabilité de nos assertions en écrivant notre propre DSL, grâce au pouvoir de l'amitié Kotlin"
+        },
+        {
+          "title": "Crowdstrike",
+          "authors": ["Florian Simon"],
+          "category": "🔐 Cybersécurité",
+          "summary": "Ou comment une erreur basique a paralysé le monde pendant plus de 12h"
+        },
+        {
+          "title": "Esperanto",
+          "authors": ["Guillaume Fayemi"],
+          "category": "💡 Découverte",
+          "summary": "La temo de ĉi tiu parolado ŝajnas esti malaperinta..."
+        }
+      ]
+    },
+    {
+      "start": "2024-12-20T16:40",
+      "end": "2024-12-20T17:30",
+      "displaySize": 3,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "E-Plans - Thérapie de groupe",
+          "authors": [
+            "Florian S",
+            "Dorian",
+            "Antoine LC",
+            "Benoit V",
+            "Benoit C",
+            "Gwenolé",
+            "Hugues"
+          ],
+          "category": "💡 Découverte",
+          "summary": "Rétrospective et retour d'expérience sur le projet e-Plans d'Enedis"
+        },
+        {
+          "title": "20 000 nuages sous les mers",
+          "authors": ["Nicolas Bouron"],
+          "category": "☁️ DevOps & Cloud",
+          "summary": ""
+        },
+        {
+          "title": "Opentelemetry et les Waterfall c'est sujet jolie, mais comment je peux en ajouter encore + dans une application JAVA ?",
+          "authors": ["Jérôme Marchand"],
+          "category": "👷‍♂️ Back-End & Architecture",
+          "summary": "Utilisons l'agent OTEL JAVA pour comprendre le chemin des appels dans une application dont on a les sources mais qu'on ne peut pas recompiler."
+        }
+      ]
+    },
+    {
+      "start": "2024-12-20T17:40",
+      "end": "2024-12-20T18:10",
+      "displaySize": 2,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "REX SeeYouSun : Ton métier est trop compliqué, code à ma place",
+          "authors": ["Gabriel Queste"],
+          "category": "💡 Découverte",
+          "summary": "Manque de temps, de ressources et complexité métier. Retour sur la stratégie utilisée pour booster un projet avec les moyens du bord"
+        },
+        {
+          "title": "REX J'ai été juré en cour d'assises",
+          "authors": ["Alexandre Melle Maigret"],
+          "category": "💡 Découverte",
+          "summary": ""
+        },
+        {
+          "title": "Rendez votre Cloud (Google) plus vert avec le Greenops ",
+          "authors": ["Laurent Perrin"],
+          "category": "☁️ DevOps & Cloud",
+          "summary": "Est-il possible de réduire l’empreinte carbone de notre infra déployée dans le Cloud ?"
+        }
+      ]
+    },
+    {
+      "start": "2024-12-20T18:10",
+      "end": "2024-12-20T18:30",
+      "displaySize": 2,
+      "type": "special",
+      "tracks": [
+        {
+          "title": "Animation surprise — Clotûre TZ — Secret Santa"
+        },
+        "EMPTY",
+        "EMPTY"
+      ]
+    },
+
+    {
+      "start": "2024-12-20T19:00",
+      "end": "2024-12-20T23:00",
+      "displaySize": 2,
+      "type": "pause",
+      "tracks": [
+        {
+          "title": "🎄🧑🏻‍🎄 Repas de Noël 🎉🧀"
+        },
+        {
+          "title": "🎄🧑🏻‍🎄 Repas de Noël 🎉🧀"
+        },
+        {
+          "title": "🎄🧑🏻‍🎄 Repas de Noël 🎉🧀"
+        }
+      ]
+    }
+  ]
+}
