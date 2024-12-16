@@ -1,5 +1,5 @@
 ---
-const { title, authors, category, displaySize, summary } = Astro.props;
+const { title, authors, category, displaySize, summary, track } = Astro.props;
 
 const authorsList = authors?.length
   ? `${authors.length > 1 ? `${authors.slice(0, -1).join(", ")} & ${authors.slice(-1)}` : authors[0]}`
@@ -13,6 +13,7 @@ const authorsList = authors?.length
     { "py-4": displaySize === 2 },
     { "py-8": displaySize === 3 },
   ]}
+  data-trackname={track}
 >
   <h2 class="font-bold">{title}</h2>
   <div class="text-sm">

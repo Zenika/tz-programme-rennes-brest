@@ -24,12 +24,21 @@ const formattedDate = new Date(date).toLocaleDateString("fr-FR", {
       align-items: center;
       justify-content: space-between;
       padding: 3em 1em 1em;
+
+      @media (width <= 800px) {
+        flex-direction: column;
+        text-align: center;
+        gap: 2em;
+      }
     }
 
     img {
       width: auto;
       flex-shrink: 0;
       height: 48px;
+      @media (width <= 800px) {
+        height: 32px;
+      }
     }
   </style>
 </header>

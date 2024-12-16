@@ -52,11 +52,17 @@ const firstColSize = 12;
             displaySize={slot.displaySize}
             type={slot.type}
           >
-            {entry.tracks.map((_, index) => {
+            {entry.tracks.map((track, index) => {
               const item = slot.tracks[index];
 
               if (typeof item !== "string") {
-                return <Talk {...item} displaySize={slot.displaySize} />;
+                return (
+                  <Talk
+                    {...item}
+                    displaySize={slot.displaySize}
+                    track={`Track ${index + 1} - ${track}`}
+                  />
+                );
               } else if (item === "EMPTY") {
                 return <td />;
               }
@@ -72,5 +78,61 @@ const firstColSize = 12;
   thead {
     background: linear-gradient(45deg, #ee2238, #bf1d67);
     color: rgba(white, 0.88);
+  }
+</style>
+
+<style lang="scss" is:global>
+  table {
+    @media (width <= 800px) {
+      border-radius: 0 !important;
+      td,
+      col,
+      th {
+        display: block;
+        width: 100%;
+        border: none;
+        padding: 1em !important;
+
+        &:empty {
+          display: none;
+        }
+      }
+
+      thead {
+        display: none;
+      }
+
+      tr {
+        border-bottom: 2px solid rgba(black, 0.16);
+      }
+      tr.pause td {
+        &::before {
+          content: "";
+        }
+        &:nth-child(n + 3) {
+          display: none;
+        }
+      }
+
+      tr.talk {
+        td:first-child {
+          background: linear-gradient(to top, white, rgba(black, 0.08));
+        }
+      }
+
+      td:first-child {
+        text-align: left;
+        padding-top: 1em !important;
+        padding-bottom: 0 !important;
+      }
+
+      td::before {
+        content: attr(data-trackname);
+        font-size: 0.88em;
+        color: #bf1d67;
+        font-weight: bold;
+        opacity: 0.72;
+      }
+    }
   }
 </style>
