@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import { getCollection } from "astro:content";
 import Slot from "../components/Slot.astro";
-import Talk from "../components/Talk.astro";
+import Talk from "../components/Talk.vue";
 
 const program = await getCollection("tz");
 const entry = program[0].data;
@@ -57,11 +57,14 @@ const firstColSize = 12;
 
               if (typeof item !== "string") {
                 return (
-                  <Talk
-                    {...item}
-                    displaySize={slot.displaySize}
-                    track={`Track ${index + 1} - ${track}`}
-                  />
+                  <td>
+                    <Talk
+                      {...item}
+                      displaySize={slot.displaySize}
+                      track={`Track ${index + 1} - ${track}`}
+                      client:idle
+                    />
+                  </td>
                 );
               } else if (item === "EMPTY") {
                 return <td />;
@@ -91,7 +94,11 @@ const firstColSize = 12;
         display: block;
         width: 100%;
         border: none;
-        padding: 1em !important;
+      }
+
+      th,
+      td .talk {
+        padding: 0.88rem !important;
 
         &:empty {
           display: none;
@@ -106,7 +113,7 @@ const firstColSize = 12;
         border-bottom: 2px solid rgba(black, 0.16);
       }
       tr.pause td {
-        &::before {
+        .talk::before {
           content: "";
         }
         &:nth-child(n + 3) {
@@ -116,6 +123,7 @@ const firstColSize = 12;
 
       tr.talk {
         td:first-child {
+          padding-left: 0.88rem !important;
           background: linear-gradient(to top, white, rgba(black, 0.08));
         }
       }
@@ -126,7 +134,7 @@ const firstColSize = 12;
         padding-bottom: 0 !important;
       }
 
-      td::before {
+      [data-trackname]:not(:empty)::before {
         content: attr(data-trackname);
         font-size: 0.88em;
         color: #bf1d67;
