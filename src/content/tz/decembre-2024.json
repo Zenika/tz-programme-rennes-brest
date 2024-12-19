@@ -96,10 +96,18 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "REX School of Product 2024",
-          "authors": ["Karine", "Marie", "Nicolas"],
-          "category": "💚 Produit",
-          "summary": "Les confs qu'on a vues mais surtout ce qu'on a aimé / pas aimé, ce qu'on a appris et avec quoi on repart..."
+          "title": "E-Plans - Thérapie de groupe",
+          "authors": [
+            "Florian S",
+            "Dorian",
+            "Antoine LC",
+            "Benoit V",
+            "Benoit C",
+            "Gwenolé",
+            "Hugues"
+          ],
+          "category": "💡 Découverte",
+          "summary": "Rétrospective et retour d'expérience sur le projet e-Plans d'Enedis"
         },
         {
           "title": "Comment retravailler ce code pour le rendre plus propre",
@@ -178,18 +186,10 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "E-Plans - Thérapie de groupe",
-          "authors": [
-            "Florian S",
-            "Dorian",
-            "Antoine LC",
-            "Benoit V",
-            "Benoit C",
-            "Gwenolé",
-            "Hugues"
-          ],
-          "category": "💡 Découverte",
-          "summary": "Rétrospective et retour d'expérience sur le projet e-Plans d'Enedis"
+          "title": "REX School of Product 2024",
+          "authors": ["Karine", "Marie", "Nicolas"],
+          "category": "💚 Produit",
+          "summary": "Les confs qu'on a vues mais surtout ce qu'on a aimé / pas aimé, ce qu'on a appris et avec quoi on repart..."
         },
         {
           "title": "20 000 nuages sous les mers",
@@ -198,10 +198,10 @@
           "summary": ""
         },
         {
-          "title": "Opentelemetry et les Waterfall c'est sujet jolie, mais comment je peux en ajouter encore + dans une application JAVA ?",
-          "authors": ["Jérôme Marchand"],
-          "category": "👷‍♂️ Back-End & Architecture",
-          "summary": "Utilisons l'agent OTEL JAVA pour comprendre le chemin des appels dans une application dont on a les sources mais qu'on ne peut pas recompiler."
+          "title": "Le tennis de table",
+          "authors": ["Antoine Le Chapelain"],
+          "category": "💡 Découverte",
+          "summary": ""
         }
       ]
     },
@@ -219,7 +219,7 @@
         },
         {
           "title": "REX J'ai été juré en cour d'assises",
-          "authors": ["Alexandre Melle Maigret"],
+          "authors": ["Alexandre Melle"],
           "category": "💡 Découverte",
           "summary": ""
         },
