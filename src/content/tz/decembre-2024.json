@@ -160,10 +160,10 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "Live Coding : DSL de test en Kotlin",
-          "authors": ["Malo Toanen"],
-          "category": "👷‍♂️ Back-End & Architecture",
-          "summary": "Améliorons la lisibilité et la réutilisabilité de nos assertions en écrivant notre propre DSL, grâce au pouvoir de l'amitié Kotlin"
+          "title": "REX Migration  Google Cloud - La puissance des services managés 🚀",
+          "authors": ["Florian & Nicolaz"],
+          "category": "☁️ DevOps & Cloud",
+          "summary": "Dans ce talk nous vous présenterons un retour sur une migration en cours, des infrastructures GCP et démos"
         },
         {
           "title": "Crowdstrike",
@@ -218,10 +218,10 @@
           "summary": "Manque de temps, de ressources et complexité métier. Retour sur la stratégie utilisée pour booster un projet avec les moyens du bord"
         },
         {
-          "title": "REX J'ai été juré en cour d'assises",
-          "authors": ["Alexandre Melle"],
-          "category": "💡 Découverte",
-          "summary": ""
+          "title": "Live Coding : DSL de test en Kotlin",
+          "authors": ["Malo Toanen"],
+          "category": "👷‍♂️ Back-End & Architecture",
+          "summary": "Améliorons la lisibilité et la réutilisabilité de nos assertions en écrivant notre propre DSL, grâce au pouvoir de l'amitié Kotlin"
         },
         {
           "title": "Rendez votre Cloud (Google) plus vert avec le Greenops ",
