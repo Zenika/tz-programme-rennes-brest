@@ -21,8 +21,8 @@
         @click.self="openDialog = false"
         class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center"
       >
-        <div class="bg-white p-6 max-w-xl rounded-lg">
-          <div class="flex items-start">
+        <div class="bg-white max-h-dvh overflow-y-auto p-6 max-w-xl rounded-lg">
+          <div class="flex items-start sticky -top-6 bg-white z-10 pt-6 -mt-6">
             <h2 class="font-bold grow">
               {{ title }}
             </h2>
