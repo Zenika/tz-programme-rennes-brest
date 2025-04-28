@@ -44,21 +44,21 @@
           "title": "Press Start pour un web accessible",
           "authors": ["Mickael Bénard", "Antoine Le Chapelain"],
           "category": "🎨 Front-End & web",
-          "summary": "",
+          "summary": "L’accessibilité numérique, c’est un peu comme les options d’un jeu vidéo : souvent cachée dans un sous-menu, rarement activée par défaut, voire inexistante mais pourtant essentielle pour que tout le monde puisse naviguer sur le web !\n\nEn 2025, où en sommes-nous vraiment sur ce sujet ? Trop souvent délaissée, l’accessibilité est perçue comme une contrainte technique alors qu’elle devrait être une évidence dès la conception. Bonne nouvelle : pas besoin de cheat code ! Avec les bons outils et quelques bonnes habitudes, on peut améliorer l’expérience numérique pour des millions de personnes.\n\nDans ce talk, nous ferons un état des lieux de l’accessibilité numérique aujourd’hui et nous partagerons des solutions concrètes pour intégrer facilement l’accessibilité dans nos pratiques. \n\nReady ? Press Start !",
           "rowSpan": 2
         },
         {
           "title": "Snif, mon équipe est en carton…",
           "authors": ["Aurélie Srhiouar"],
           "category": "💡 Découverte",
-          "summary": "",
+          "summary": "Peu importe notre XP ou notre mission, on a tou.te.s déjà fait partie d'une équipe, et on a forcément déjà été confronté.e.s à des problématiques plus ou moins sérieuses qui ont plus ou moins nuit à l'efficience individuelle voire collective : désintérêt des résultats, manque d'adhésion, peur du conflit, confiance détériorée, leadership branlant...\nDans ce talk, je vous présenterai les dysfonctionnements qu'on peut rencontrer en équipe, le rôle du/des leader(s) dans tout ça, mais surtout, j'espère que nous pourrons évoquer ensemble des situations que vous avez pu rencontrer dans votre quotidien, et partager collectivement quelques tips pour les contrer efficacement.\n:)",
           "rowSpan": 2
         },
         {
           "title": "KYC : Know Your Customer",
           "authors": ["Xavier Cassel"],
           "category": "🔐 Cybersécurité",
-          "summary": "",
+          "summary": "Les processus KYC (Know Your Customer) sont essentiels pour lutter contre la fraude et respecter les règles. Il est obligatoire notament pour toutes les institutions bancaires et financières (comme les établissements de paiement ou de crypto-monnaies).\n\nMais ils peuvent vite devenir compliqués et frustrants, tant pour les entreprises que pour les clients. \n\nDans ce talk, on va voir ensemble comment les solutions du marché trouvent un équilibre entre une expérience utilisateur fluide et la sécurité, tout en respectant les exigences légales.",
           "rowSpan": 1
         }
       ]
@@ -75,7 +75,7 @@
           "title": "SQL pour les devs front",
           "authors": ["Damien Le Dantec"],
           "category": "👷‍♂️ Back-End & Architecture",
-          "summary": "",
+          "summary": "Je travaille actuellement sur une application front qui a besoin de récupérer de nombreuses données venant de PostgreSQL.\nÉtant développeur front, l'écriture de requêtes SQL n'est pas ma spécialité et j'aurais aimé connaître certains mots clés ou techniques plus tôt.\nDans ce talk, nous allons rapidement revoir ensemble les concepts principaux d'une base de données relationnelle, puis je vais présenter différents cas d'usage auxquels j'ai été confronté et la solution technique qui m'a aidé.\n\nTu souhaites te rafraîchir la mémoire sur le SQL ? Alors n'hésite pas, ce talk est fait pour toi !",
           "rowSpan": 1
         }
       ]
@@ -107,21 +107,21 @@
           "title": "REX : Mon poste n’existe pas",
           "authors": ["Kevin Danezis"],
           "category": "💡 Découverte",
-          "summary": "",
+          "summary": "On rigole souvent de l'existence de poste, de job qui n'existent que pour justifier d'un salaire, le chef de projet qui passe sa vie en réunion à lire des slides qu'il a rédiger toute la semaine, l'archi absent des sujets critiques, le responsable produit qui vente les mérites de nouvelles fonctionnalités dont personne ne voudra ou le développeur qui mets 10 ans à terminer sa tâche.\n\nMais vous êtes vous déjà posé la question de l'inverse ? non bien sur que non et franchement moi non plus. 😒\n\nQue se passerait il si un job n'existait pas ? et pire, que se passerait il si vous ignoriez que vous occupez un poste qui n'existe pas ? \n\nMoi je l'ai appris à mes dépends et franchement c'est pas glorieux.\n\nDu coup je vous propose un REX basé sur mon expérience des 9 mois les plus dingues de ma vie chez un client à la dérive, entre hystéries collectives et moment de grâce, comment pouvons nous jouer notre rôle de devoir et conseil dans les situations de chaos ? comment pouvons nous rester résilient et avancer sereinement lorsque personne chez notre client n'a conscience du danger qui sape notre quotidien et que l'on est tout autant aveugle côté Zenika ?",
           "rowSpan": 2
         },
         {
           "title": "Exploitation des LLM(s)",
           "authors": ["Olivier Le Lay"],
           "category": "🧑‍💻 Data Science",
-          "summary": "",
+          "summary": "En ce début d'année 2025, fini la liberté pour nos chers modèles de langage (LLM) ! Il est temps de les remettre au boulot, et pas question qu'ils prennent une pause café.\n\nCette présentation vous embarque dans un périple instructif où la complexité de la tâche montera crescendo. On débutera tranquillement avec quelques échanges basiques, mais les choses vont vite devenir sérieuses : documents, automatisation, équipes d'agents et outils externes… tout sera bon pour pousser nos modèles dans leurs derniers retranchements.\n\nVenez donc assister à cette reprise historique du travail forcé, et découvrez comment dompter efficacement vos LLM pour vos prochains projets !\nNul besoin de connaitre dans le détail les ficelles de cette pratique ancestrale, la majorité des outils présenté seront accessible avec du code basic (enfin python mais bon...)",
           "rowSpan": 2
         },
         {
           "title": "Un Design System pour 14 applis",
           "authors": ["Karine Sabatier"],
           "category": "🎨 Front-End & web",
-          "summary": "",
+          "summary": "C'est ce qu'on essaie de faire et ça se passe pas trop mal...\nRex sur notre méthodo, nos choix, ce qui fonctionne, ce qui fonctionne moins...\nCe talk parlera\n- de gouvernance UX\n- d'architecture UX\n- de modernisation et de gestion du legacy\n- de Design Systems\n- de Figma et notamment de ses variables qui sauvent la vie",
           "rowSpan": 1
         }
       ]
@@ -138,7 +138,7 @@
           "title": "Un juré d’assises, ça sert à quoi ?",
           "authors": ["Alexandre Mellé"],
           "category": "💡 Découverte",
-          "summary": "",
+          "summary": "Petit rex sur la mission d'un juré en cours d'assises, de la convocation à la délibération en passant par le fonctionnement (très simplifié) du système pénal français. Je vais tenter de rendre le truc assez léger mais ça va quand même pas être très jojo.\nPetit disclaimer d'ailleurs: je vais probablement donner des détails qui peuvent être dures à entendre (notamment pour les parents et surtout les mères de jeunes enfants)",
           "rowSpan": 1
         }
       ]
@@ -187,21 +187,21 @@
           "title": "Dégooglisons (son propre) Internet",
           "authors": ["Laurent Perrin", "Kevin Danezis"],
           "category": "💡 Découverte",
-          "summary": "",
+          "summary": "Un talk / rex / conseil sur une démarche personnelle en cours et loin d'être terminée. Une démarche que de plus en plus de personnes empruntent : celle de se retirer des griffes des GAFAM et de reprendre en main sa vie numérique.\n\nOn y abordera les limites de l'exercice, les contraintes systémiques qui vont mettre les bâtons dans les roues  (coucou employeur qui ne travail qu'avec Google)  et j'aurai plaisir à échanger pendant ou après la conf avec vous pour concrètement vous aider à vous lancer dans l'aventure.\n\nMais on parlera également du \"pourquoi\" d'une telle démarche, quels gains personnels on peut y attendre et en quoi cette démarche peut avoir une répercussion pour tous",
           "rowSpan": 2
         },
         {
           "title": "Payload : le CMS headless zéro défaut ?",
           "authors": ["Nicolas Leport"],
           "category": "🎨 Front-End & web",
-          "summary": "",
+          "summary": "Vous connaissez peut-être Contentful et Prismic ou plus récemment Strapi et Directus ? Et bien je vous propose de vous présenter un outsider du nom de Payload, qui grâce à son approche CMS as code et sa gestion du contenu en fait peut-être le CMS le plus flexible et robuste à la fois pour nos usages modernes.\n\nNous ferons un tour des fonctionnalités de l'outils, son installation, sa personnalisation et je vous montrerai une démo de ce qu'on peut faire avec et de pourquoi c'est - qui sait - le meilleur d'entre tous.",
           "rowSpan": 2
         },
         {
           "title": "REX GMV : fusion d’environnements",
           "authors": ["Damien Aranda", "Maximilien de Couasnon"],
           "category": "👷‍♂️ Back-End & Architecture",
-          "summary": "",
+          "summary": "tl:dr REX sur notre mission à GMV depuis 2 ans.\nFusionner deux plateformes ERP vétérinaires, c’était le projet que tout le monde redoutait : tech complexe, historique douloureux, incidents passés encore frais dans les mémoires… et des équipes (support, commerce, tech) qui se parlaient à peine. Chaque migration faisait l’effet d’un champ de mines, et chaque risque soulevé rallumait les tensions.\n\nActe I – Découverte de l'historique\n\nEntre base de données bancale et documentation absente, comment imaginer un outil qui pourrait nous sauver. À l'arrivé de Damien sur le projet l'objectif est clair, mais on ne sait pas comment y arriver.\n\nActe II – Les équipes\n\nL'arrivée de Maximillien sur le projet marque un tournant : on sort des silos, on visualise, on synchronise. Grâce au management visuel, aux points hebdo multi-équipes et à un cadencement clair, la confiance commence à se reconstruire.\n\nActe III – Le début des bascules\n\nPremière migrations et première victoires pour l'équipe. Le support est rassuré, et le planning est suivi sans stress. Mais le plus dur reste à venir avec certains comptes de la plateforme qui vont poser des problèmes imprévus.\n\nÉpilogue –  Le calme après la tempête\n\nAujourd’hui, seuls les membres du projet y pensent encore. C’est devenu un non-événement pour le reste de l’organisation. La preuve que communication, transparence et confiance, couplées à un vrai travail d’équipe (tech + produit + client), peuvent rendre fluide n’importe quelle opération, aussi risquée soit-elle.",
           "rowSpan": 2
         }
       ]
@@ -240,14 +240,14 @@
           "title": "Comment Spring vous aide à développer des agents IA",
           "authors": ["Benoît Averty"],
           "category": "👷‍♂️ Back-End & Architecture",
-          "summary": "",
+          "summary": "L’écosystème Spring est bien connu pour faciliter l’intégration d’une grande quantité de technologies et techniques dans vos applications. L’IA n’est bien sur pas une exception, et le projet Spring AI permet d’utiliser simplement un grand nombre de fournisseurs de modèles de langage, d’embeddings ou de génération d’images.\n\nDans cette conférence, je vous propose une démo et une présentation de code d’une application Spring qui s’appuie sur l’IA. Ça sera aussi l’occasion de présenter les patterns et les techniques qu’on peut utiliser pour intégrer un modèle de langage et en faire une application qui interagit avec le reste de votre SI.",
           "rowSpan": 2
         },
         {
           "title": "Responsabilité d’un consultant : doit‑on toujours dire oui ?",
           "authors": ["Dylan Behêtre"],
           "category": "💡 Découverte",
-          "summary": "",
+          "summary": "Raconter quelques expériences : client qui ne veut pas de tests pour aller plus vite / manager qui me challenge sur des refactos durant une évolution car ça prends plus de temps qu'estimé.\n\nAspect légale.\n\nMa vision de la responsabilité d'un consultant.",
           "rowSpan": 1
         },
         {

@@ -40,7 +40,7 @@
             }}<template v-if="authorsList"> | {{ authorsList }}</template>
             <template v-if="category"> | {{ category }}</template></span
           >
-          <p class="my-4" v-if="summary">{{ summary }}</p>
+          <p class="my-4 whitespace-pre-wrap" v-if="summary">{{ summary }}</p>
         </div>
       </div>
     </Teleport>
