@@ -1,0 +1,141 @@
+---
+import type { InferEntrySchema } from "astro:content";
+import Header from "./Header.astro";
+import Slot from "./Slot.astro";
+import Talk from "./Talk.vue";
+interface Props {
+  entry: InferEntrySchema<"tz">;
+  firstColSize: number;
+}
+const { entry, firstColSize } = Astro.props;
+---
+
+<Header title={entry.title} description={entry.description} date={entry.date} />
+
+<table class="w-full my-8 rounded-xl overflow-hidden">
+  <colgroup>
+    <col span="1" style={`width: ${firstColSize}%;`} />
+    {
+      entry.tracks.map(() => (
+        <col
+          span="3"
+          style={`width: ${(100 - firstColSize) / entry.tracks.length}%;`}
+        />
+      ))
+    }
+  </colgroup>
+
+  <thead>
+    <tr>
+      <th class="text-lg p-2">Horaire</th>
+      {
+        entry.tracks.map((track, index) => (
+          <th class="p-2  text-lg">
+            Track {index + 1} - {track}
+          </th>
+        ))
+      }
+    </tr>
+  </thead>
+
+  <tbody>
+    {
+      entry.slots.map((slot) => (
+        <Slot
+          start={slot.start}
+          end={slot.end}
+          displaySize={slot.displaySize}
+          type={slot.type}
+        >
+          {entry.tracks.map((track, index) => {
+            const item = slot.tracks[index];
+
+            if (typeof item !== "string") {
+              return (
+                <td rowspan={item?.rowSpan}>
+                  <Talk
+                    {...item}
+                    displaySize={slot.displaySize}
+                    track={`Track ${index + 1} - ${track}`}
+                    client:idle
+                  />
+                </td>
+              );
+            } else if (item === "EMPTY") {
+              return <td />;
+            } else if (item === "SPAN") {
+            }
+          })}
+        </Slot>
+      ))
+    }
+  </tbody>
+</table>
+
+<style lang="scss">
+  thead {
+    background: linear-gradient(45deg, #ee2238, #bf1d67);
+    color: rgba(white, 0.88);
+  }
+</style>
+
+<style lang="scss" is:global>
+  table {
+    @media (width <= 800px) {
+      border-radius: 0 !important;
+      td,
+      col,
+      th {
+        display: block;
+        width: 100%;
+        border: none;
+      }
+
+      th,
+      td .talk {
+        padding: 0.88rem !important;
+
+        &:empty {
+          display: none;
+        }
+      }
+
+      thead {
+        display: none;
+      }
+
+      tr {
+        border-bottom: 2px solid rgba(black, 0.16);
+      }
+      tr.pause td {
+        .talk::before {
+          content: "";
+        }
+        &:nth-child(n + 3) {
+          display: none;
+        }
+      }
+
+      tr.talk {
+        td:first-child {
+          padding-left: 0.88rem !important;
+          background: linear-gradient(to top, white, rgba(black, 0.08));
+        }
+      }
+
+      td:first-child {
+        text-align: left;
+        padding-top: 1em !important;
+        padding-bottom: 0 !important;
+      }
+
+      [data-trackname]:not(:empty)::before {
+        content: attr(data-trackname);
+        font-size: 0.88em;
+        color: #bf1d67;
+        font-weight: bold;
+        opacity: 0.72;
+      }
+    }
+  }
+</style>

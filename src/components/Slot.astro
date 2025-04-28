@@ -5,9 +5,10 @@ interface Props {
   displaySize: number;
   type: string;
   children: any;
+  rowSpan?: number;
 }
 
-const { start, end, type } = Astro.props;
+const { start, end, type, rowSpan } = Astro.props;
 
 const formatDate = (date: Date | string) => {
   if (typeof date === "string") {
@@ -25,7 +26,7 @@ const duration = (start: Date, end: Date) => {
 ---
 
 <tr class={`${type}`}>
-  <td class="p-3 text-sm text-center font-bold">
+  <td class="p-3 text-sm text-center font-bold" rowspan={rowSpan}>
     {formatDate(start)} - {formatDate(end)}{
       type === "talk" && (
         <>

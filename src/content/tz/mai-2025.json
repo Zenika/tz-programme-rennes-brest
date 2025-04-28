@@ -1,0 +1,303 @@
+{
+  "tracks": ["Le hub", "L'atelier", "Le fablab"],
+  "title": "TZ Rennes – Après‑midi",
+  "slug": "mai-2025",
+  "description": "Programme de l'après-midi",
+  "date": "2025-05-23",
+  "slots": [
+    {
+      "start": "2025-05-23T12:00",
+      "end": "2025-05-23T12:15",
+      "displaySize": 1,
+      "type": "special",
+      "tracks": [
+        {
+          "title": "Introduction TZ"
+        },
+        "EMPTY",
+        "EMPTY"
+      ]
+    },
+    {
+      "start": "2025-05-23T12:15",
+      "end": "2025-05-23T12:45",
+      "displaySize": 1,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Keynote",
+          "authors": ["Speaker"],
+          "category": "💡 Découverte",
+          "summary": ""
+        },
+        "EMPTY",
+        "EMPTY"
+      ]
+    },
+    {
+      "start": "2025-05-23T14:00",
+      "end": "2025-05-23T14:20",
+      "displaySize": 1,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Press Start pour un web accessible",
+          "authors": ["Mickael Bénard", "Antoine Le Chapelain"],
+          "category": "🎨 Front-End & web",
+          "summary": "",
+          "rowSpan": 2
+        },
+        {
+          "title": "Snif, mon équipe est en carton…",
+          "authors": ["Aurélie Srhiouar"],
+          "category": "💡 Découverte",
+          "summary": "",
+          "rowSpan": 2
+        },
+        {
+          "title": "KYC : Know Your Customer",
+          "authors": ["Xavier Cassel"],
+          "category": "🔐 Cybersécurité",
+          "summary": "",
+          "rowSpan": 1
+        }
+      ]
+    },
+    {
+      "start": "2025-05-23T14:20",
+      "end": "2025-05-23T14:40",
+      "displaySize": 1,
+      "type": "talk",
+      "tracks": [
+        "SPAN",
+        "SPAN",
+        {
+          "title": "SQL pour les devs front",
+          "authors": ["Damien Le Dantec"],
+          "category": "👷‍♂️ Back-End & Architecture",
+          "summary": "",
+          "rowSpan": 1
+        }
+      ]
+    },
+    {
+      "start": "2025-05-23T14:40",
+      "end": "2025-05-23T14:45",
+      "displaySize": 1,
+      "type": "pause",
+      "tracks": [
+        {
+          "title": "Battement"
+        },
+        {
+          "title": "Battement"
+        },
+        {
+          "title": "Battement"
+        }
+      ]
+    },
+    {
+      "start": "2025-05-23T14:45",
+      "end": "2025-05-23T15:05",
+      "displaySize": 1,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "REX : Mon poste n’existe pas",
+          "authors": ["Kevin Danezis"],
+          "category": "💡 Découverte",
+          "summary": "",
+          "rowSpan": 2
+        },
+        {
+          "title": "Exploitation des LLM(s)",
+          "authors": ["Olivier Le Lay"],
+          "category": "🧑‍💻 Data Science",
+          "summary": "",
+          "rowSpan": 2
+        },
+        {
+          "title": "Un Design System pour 14 applis",
+          "authors": ["Karine Sabatier"],
+          "category": "🎨 Front-End & web",
+          "summary": "",
+          "rowSpan": 1
+        }
+      ]
+    },
+    {
+      "start": "2025-05-23T15:05",
+      "end": "2025-05-23T15:25",
+      "displaySize": 1,
+      "type": "talk",
+      "tracks": [
+        "SPAN",
+        "SPAN",
+        {
+          "title": "Un juré d’assises, ça sert à quoi ?",
+          "authors": ["Alexandre Mellé"],
+          "category": "💡 Découverte",
+          "summary": "",
+          "rowSpan": 1
+        }
+      ]
+    },
+    {
+      "start": "2025-05-23T15:25",
+      "end": "2025-05-23T15:30",
+      "displaySize": 1,
+      "type": "pause",
+      "tracks": [
+        {
+          "title": "Battement"
+        },
+        {
+          "title": "Battement"
+        },
+        {
+          "title": "Battement"
+        }
+      ]
+    },
+    {
+      "start": "2025-05-23T15:30",
+      "end": "2025-05-23T15:50",
+      "displaySize": 1,
+      "type": "pause",
+      "tracks": [
+        {
+          "title": "Pause"
+        },
+        {
+          "title": "Pause"
+        },
+        {
+          "title": "Pause"
+        }
+      ]
+    },
+    {
+      "start": "2025-05-23T15:50",
+      "end": "2025-05-23T16:10",
+      "displaySize": 1,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Dégooglisons (son propre) Internet",
+          "authors": ["Laurent Perrin", "Kevin Danezis"],
+          "category": "💡 Découverte",
+          "summary": "",
+          "rowSpan": 2
+        },
+        {
+          "title": "Payload : le CMS headless zéro défaut ?",
+          "authors": ["Nicolas Leport"],
+          "category": "🎨 Front-End & web",
+          "summary": "",
+          "rowSpan": 2
+        },
+        {
+          "title": "REX GMV : fusion d’environnements",
+          "authors": ["Damien Aranda", "Maximilien de Couasnon"],
+          "category": "👷‍♂️ Back-End & Architecture",
+          "summary": "",
+          "rowSpan": 2
+        }
+      ]
+    },
+    {
+      "start": "2025-05-23T16:10",
+      "end": "2025-05-23T16:30",
+      "displaySize": 1,
+      "type": "talk",
+      "tracks": ["SPAN", "SPAN", "SPAN"]
+    },
+    {
+      "start": "2025-05-23T16:30",
+      "end": "2025-05-23T16:35",
+      "displaySize": 1,
+      "type": "pause",
+      "tracks": [
+        {
+          "title": "Battement"
+        },
+        {
+          "title": "Battement"
+        },
+        {
+          "title": "Battement"
+        }
+      ]
+    },
+    {
+      "start": "2025-05-23T16:35",
+      "end": "2025-05-23T16:55",
+      "displaySize": 1,
+      "type": "talk",
+      "tracks": [
+        {
+          "title": "Comment Spring vous aide à développer des agents IA",
+          "authors": ["Benoît Averty"],
+          "category": "👷‍♂️ Back-End & Architecture",
+          "summary": "",
+          "rowSpan": 2
+        },
+        {
+          "title": "Responsabilité d’un consultant : doit‑on toujours dire oui ?",
+          "authors": ["Dylan Behêtre"],
+          "category": "💡 Découverte",
+          "summary": "",
+          "rowSpan": 1
+        },
+        {
+          "title": "@Zenika 2019",
+          "authors": ["Jérôme Marchand"],
+          "category": "💡 Découverte",
+          "summary": "Arrêter de mettre des copyright je vous explique pourquoi en 5 mn",
+          "rowSpan": 1
+        }
+      ]
+    },
+    {
+      "start": "2025-05-23T16:55",
+      "end": "2025-05-23T17:15",
+      "displaySize": 1,
+      "type": "talk",
+      "tracks": [
+        "SPAN",
+        {
+          "title": "Angular, un framework qui sort de sa zone.js de confort",
+          "authors": ["Valentin Got"],
+          "category": "🎨 Front-End & web",
+          "summary": "Angular a parcouru un chemin impressionnant ces dernières années, multipliant les innovations pour s’adapter à un écosystème en constante évolution.",
+          "rowSpan": 1
+        },
+        {
+          "title": "Bingo de l'IA",
+          "authors": ["Karine Sabatier"],
+          "category": "🧑‍💻 Data Science",
+          "summary": "Atelier participatif pour démystifier les buzz‑words de l’IA (LLM, deep learning, etc.) au travers d’un bingo collectif.",
+          "rowSpan": 1
+        }
+      ]
+    },
+    {
+      "start": "2025-05-23T19:00",
+      "end": "2025-05-23T23:00",
+      "displaySize": 2,
+      "type": "special",
+      "tracks": [
+        {
+          "title": "Balade en bateau"
+        },
+        {
+          "title": "Balade en bateau"
+        },
+        {
+          "title": "Balade en bateau"
+        }
+      ]
+    }
+  ]
+}

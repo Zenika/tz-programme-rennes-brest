@@ -1,6 +1,7 @@
 {
   "tracks": ["Le hub", "L'atelier", "Le fablab"],
   "title": "TZ Rennes",
+  "slug": "decembre-2024",
   "description": "Programme de l'après-midi",
   "date": "2024-12-20",
   "slots": [

@@ -1,0 +1,22 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+import Planning from "../../components/Planning.astro";
+
+export function getStaticPaths() {
+  return [
+    { params: { slug: "decembre-2024" } },
+    { params: { slug: "mai-2025" } },
+  ];
+}
+
+const program = await getCollection("tz");
+const { slug } = Astro.params;
+console.log("slug", slug);
+const entry = program.filter((item) => item.data.slug === slug)[0].data;
+const firstColSize = 12;
+---
+
+<Layout>
+  <Planning entry={entry} firstColSize={firstColSize} />
+</Layout>

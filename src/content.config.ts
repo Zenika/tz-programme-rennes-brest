@@ -7,6 +7,7 @@ const tz = defineCollection({
     title: z.string(),
     description: z.string(),
     date: z.coerce.date(),
+    slug: z.string(),
     tracks: z.array(z.string()),
     slots: z.array(
       z.object({
@@ -21,6 +22,7 @@ const tz = defineCollection({
               authors: z.array(z.string()).optional(),
               category: z.string().optional(),
               summary: z.string().optional(),
+              rowSpan: z.number().optional(),
             }),
             z.string(),
           ])
