@@ -81,10 +81,10 @@
           "rowSpan": 2
         },
         {
-          "title": "Snif, mon équipe est en carton…",
-          "authors": ["Aurélie Srhiouar"],
-          "category": "💡 Découverte",
-          "summary": "Peu importe notre XP ou notre mission, on a tou.te.s déjà fait partie d'une équipe, et on a forcément déjà été confronté.e.s à des problématiques plus ou moins sérieuses qui ont plus ou moins nuit à l'efficience individuelle voire collective : désintérêt des résultats, manque d'adhésion, peur du conflit, confiance détériorée, leadership branlant...\nDans ce talk, je vous présenterai les dysfonctionnements qu'on peut rencontrer en équipe, le rôle du/des leader(s) dans tout ça, mais surtout, j'espère que nous pourrons évoquer ensemble des situations que vous avez pu rencontrer dans votre quotidien, et partager collectivement quelques tips pour les contrer efficacement.\n:)",
+          "title": "Exploitation des LLM(s)",
+          "authors": ["Olivier Le Lay"],
+          "category": "🧑‍💻 Data Science",
+          "summary": "En ce début d'année 2025, fini la liberté pour nos chers modèles de langage (LLM) ! Il est temps de les remettre au boulot, et pas question qu'ils prennent une pause café.\n\nCette présentation vous embarque dans un périple instructif où la complexité de la tâche montera crescendo. On débutera tranquillement avec quelques échanges basiques, mais les choses vont vite devenir sérieuses : documents, automatisation, équipes d'agents et outils externes… tout sera bon pour pousser nos modèles dans leurs derniers retranchements.\n\nVenez donc assister à cette reprise historique du travail forcé, et découvrez comment dompter efficacement vos LLM pour vos prochains projets !\nNul besoin de connaitre dans le détail les ficelles de cette pratique ancestrale, la majorité des outils présenté seront accessible avec du code basic (enfin python mais bon...)",
           "rowSpan": 2
         },
         {
@@ -127,17 +127,18 @@
           "rowSpan": 2
         },
         {
-          "title": "Exploitation des LLM(s)",
-          "authors": ["Olivier Le Lay"],
-          "category": "🧑‍💻 Data Science",
-          "summary": "En ce début d'année 2025, fini la liberté pour nos chers modèles de langage (LLM) ! Il est temps de les remettre au boulot, et pas question qu'ils prennent une pause café.\n\nCette présentation vous embarque dans un périple instructif où la complexité de la tâche montera crescendo. On débutera tranquillement avec quelques échanges basiques, mais les choses vont vite devenir sérieuses : documents, automatisation, équipes d'agents et outils externes… tout sera bon pour pousser nos modèles dans leurs derniers retranchements.\n\nVenez donc assister à cette reprise historique du travail forcé, et découvrez comment dompter efficacement vos LLM pour vos prochains projets !\nNul besoin de connaitre dans le détail les ficelles de cette pratique ancestrale, la majorité des outils présenté seront accessible avec du code basic (enfin python mais bon...)",
+          "title": "Snif, mon équipe est en carton…",
+          "authors": ["Aurélie Srhiouar"],
+          "category": "💡 Découverte",
+          "summary": "Peu importe notre XP ou notre mission, on a tou.te.s déjà fait partie d'une équipe, et on a forcément déjà été confronté.e.s à des problématiques plus ou moins sérieuses qui ont plus ou moins nuit à l'efficience individuelle voire collective : désintérêt des résultats, manque d'adhésion, peur du conflit, confiance détériorée, leadership branlant...\nDans ce talk, je vous présenterai les dysfonctionnements qu'on peut rencontrer en équipe, le rôle du/des leader(s) dans tout ça, mais surtout, j'espère que nous pourrons évoquer ensemble des situations que vous avez pu rencontrer dans votre quotidien, et partager collectivement quelques tips pour les contrer efficacement.\n:)",
           "rowSpan": 2
         },
+
         {
-          "title": "Un Design System pour 14 applis",
-          "authors": ["Karine Sabatier"],
-          "category": "🎨 Front-End & web",
-          "summary": "C'est ce qu'on essaie de faire et ça se passe pas trop mal...\nRex sur notre méthodo, nos choix, ce qui fonctionne, ce qui fonctionne moins...\nCe talk parlera\n- de gouvernance UX\n- d'architecture UX\n- de modernisation et de gestion du legacy\n- de Design Systems\n- de Figma et notamment de ses variables qui sauvent la vie",
+          "title": "🕺 Pour danser la Bamba, il se nécessite un peu de grâce 💃",
+          "authors": ["Malo Toanen"],
+          "category": "💡 Découverte",
+          "summary": "Nommez-moi trois danses latines ! (non, la macarena ça compte pas)\n\nLe sachiez-vous : la danse, comme la musique ou le langage, se diffuse à travers le monde 🌍\nElle s'exporte, fusionne, se transforme, s'adapte aux différentes cultures qu'elle croise. 🧬\nDans cette présentation, on fera un petit inventaire de quelques styles de danses plus ou moins connus, de leurs histoires et de leurs parcours. ⛵\nOn apprendra aussi à reconnaître les styles musicaux associés et on en fera, si vous êtes sages, un petit quiz à la fin 🛎️",
           "rowSpan": 1
         }
       ]
@@ -199,7 +200,7 @@
         {
           "title": "REX GMV : fusion d’environnements",
           "authors": ["Damien Aranda", "Maximilien de Couasnon"],
-          "category": "👷‍♂️ Back-End & Architecture",
+          "category": "💡 Découverte",
           "summary": "tl:dr REX sur notre mission à GMV depuis 2 ans.\nFusionner deux plateformes ERP vétérinaires, c’était le projet que tout le monde redoutait : tech complexe, historique douloureux, incidents passés encore frais dans les mémoires… et des équipes (support, commerce, tech) qui se parlaient à peine. Chaque migration faisait l’effet d’un champ de mines, et chaque risque soulevé rallumait les tensions.\n\nActe I – Découverte de l'historique\n\nEntre base de données bancale et documentation absente, comment imaginer un outil qui pourrait nous sauver. À l'arrivé de Damien sur le projet l'objectif est clair, mais on ne sait pas comment y arriver.\n\nActe II – Les équipes\n\nL'arrivée de Maximillien sur le projet marque un tournant : on sort des silos, on visualise, on synchronise. Grâce au management visuel, aux points hebdo multi-équipes et à un cadencement clair, la confiance commence à se reconstruire.\n\nActe III – Le début des bascules\n\nPremière migrations et première victoires pour l'équipe. Le support est rassuré, et le planning est suivi sans stress. Mais le plus dur reste à venir avec certains comptes de la plateforme qui vont poser des problèmes imprévus.\n\nÉpilogue –  Le calme après la tempête\n\nAujourd’hui, seuls les membres du projet y pensent encore. C’est devenu un non-événement pour le reste de l’organisation. La preuve que communication, transparence et confiance, couplées à un vrai travail d’équipe (tech + produit + client), peuvent rendre fluide n’importe quelle opération, aussi risquée soit-elle.",
           "rowSpan": 2
         }
