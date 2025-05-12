@@ -88,10 +88,10 @@
           "rowSpan": 2
         },
         {
-          "title": "KYC : Know Your Customer",
-          "authors": ["Xavier Cassel"],
-          "category": "🔐 Cybersécurité",
-          "summary": "Les processus KYC (Know Your Customer) sont essentiels pour lutter contre la fraude et respecter les règles. Il est obligatoire notament pour toutes les institutions bancaires et financières (comme les établissements de paiement ou de crypto-monnaies).\n\nMais ils peuvent vite devenir compliqués et frustrants, tant pour les entreprises que pour les clients. \n\nDans ce talk, on va voir ensemble comment les solutions du marché trouvent un équilibre entre une expérience utilisateur fluide et la sécurité, tout en respectant les exigences légales.",
+          "title": "@Zenika 2019",
+          "authors": ["Jérôme Marchand"],
+          "category": "💡 Découverte",
+          "summary": "Arrêter de mettre des copyright je vous explique pourquoi en 5 mn",
           "rowSpan": 1
         }
       ]
@@ -220,10 +220,10 @@
       "type": "talk",
       "tracks": [
         {
-          "title": "Comment Spring vous aide à développer des agents IA",
-          "authors": ["Benoît Averty"],
-          "category": "👷‍♂️ Back-End & Architecture",
-          "summary": "L’écosystème Spring est bien connu pour faciliter l’intégration d’une grande quantité de technologies et techniques dans vos applications. L’IA n’est bien sur pas une exception, et le projet Spring AI permet d’utiliser simplement un grand nombre de fournisseurs de modèles de langage, d’embeddings ou de génération d’images.\n\nDans cette conférence, je vous propose une démo et une présentation de code d’une application Spring qui s’appuie sur l’IA. Ça sera aussi l’occasion de présenter les patterns et les techniques qu’on peut utiliser pour intégrer un modèle de langage et en faire une application qui interagit avec le reste de votre SI.",
+          "title": "Viens jeter des tomates sur mon app 🍅",
+          "authors": ["Xavier Cassel"],
+          "category": "📱 Mobile",
+          "summary": "Bien, maintenant que j'ai ton attention sur ce titre p**aclick.\n\nJe te propose de te présenter la stack technique + quelques fonctionnalités que j'ai eu l'occasion de mettre en place sur mon side project JAM.\n\nAu menu:\n- Application mobile capacitor + VueJS\n- API: NodeJS + NestJS\n- De l'IA avec de la génération de contenu\n- Gestion de transactions avec Stripe\n- Gestion de l'authentification\n\nPS: les tomates ne sont pas fournies, ramener les vôtres.",
           "rowSpan": 2
         },
         {
@@ -234,10 +234,10 @@
           "rowSpan": 1
         },
         {
-          "title": "@Zenika 2019",
-          "authors": ["Jérôme Marchand"],
+          "title": "La pêche : Tout le monde connait ? Pas forcément !",
+          "authors": ["Damien Le Dantec"],
           "category": "💡 Découverte",
-          "summary": "Arrêter de mettre des copyright je vous explique pourquoi en 5 mn",
+          "summary": "La pêche, un vaste sujet. Loisir connu de tous mais peu de monde connaissent réellement toutes les déclinaisons.\nDans un monde où on est toujours connecté, la pêche apparaît comme une bouffée d'oxygène.\n\nDans ce talk nous allons voir les bienfaits de ce loisir mais je vais aussi vous présenter les différents styles de pêche, parce que oui, il y en a pour tous les goûts !\nChaque technique apporte son lot de particularités : Que ce soit sportif (et oui), stratégique, reposant ou en mode bivouac, chacun peut y trouver son compte.\n\nAlors si vous souhaitez en savoir plus sur ce loisir étonnament méconnu, vous êtes au bon endroit !",
           "rowSpan": 1
         }
       ]
