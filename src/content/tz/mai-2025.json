@@ -81,7 +81,7 @@
           "rowSpan": 2
         },
         {
-          "title": "Exploitation des LLM(s)",
+          "title": "Les LLMs font tout... sauf porter vos bagages !",
           "authors": ["Olivier Le Lay"],
           "category": "🧑‍💻 Data Science",
           "summary": "En ce début d'année 2025, fini la liberté pour nos chers modèles de langage (LLM) ! Il est temps de les remettre au boulot, et pas question qu'ils prennent une pause café.\n\nCette présentation vous embarque dans un périple instructif où la complexité de la tâche montera crescendo. On débutera tranquillement avec quelques échanges basiques, mais les choses vont vite devenir sérieuses : documents, automatisation, équipes d'agents et outils externes… tout sera bon pour pousser nos modèles dans leurs derniers retranchements.\n\nVenez donc assister à cette reprise historique du travail forcé, et découvrez comment dompter efficacement vos LLM pour vos prochains projets !\nNul besoin de connaitre dans le détail les ficelles de cette pratique ancestrale, la majorité des outils présenté seront accessible avec du code basic (enfin python mais bon...)",
